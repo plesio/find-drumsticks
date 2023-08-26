@@ -9,7 +9,9 @@ import "$std/dotenv/load.ts";
 import { start } from "$fresh/server.ts";
 import manifest from "./fresh.gen.ts";
 
-import twindPlugin from "$fresh/plugins/twind.ts";
+import twindv1 from "$fresh/plugins/twindv1.ts";
 import twindConfig from "./twind.config.ts";
 
-await start(manifest, { plugins: [twindPlugin(twindConfig)] });
+await start(manifest, {
+  plugins: [twindv1(twindConfig)], // twindv1プラグインを適用します。
+});
