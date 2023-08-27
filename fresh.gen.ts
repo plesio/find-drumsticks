@@ -4,8 +4,9 @@
 
 import * as $0 from './routes/_app.tsx';
 import * as $1 from './routes/index.tsx';
-import * as $$0 from './islands/StickFilter.tsx';
-import * as $$1 from './islands/StickTable.tsx';
+import * as $$0 from './islands/RefreshButton.tsx';
+import * as $$1 from './islands/StickFilter.tsx';
+import * as $$2 from './islands/StickTable.tsx';
 
 const manifest = {
   routes: {
@@ -13,8 +14,9 @@ const manifest = {
     './routes/index.tsx': $1,
   },
   islands: {
-    './islands/StickFilter.tsx': $$0,
-    './islands/StickTable.tsx': $$1,
+    './islands/RefreshButton.tsx': $$0,
+    './islands/StickFilter.tsx': $$1,
+    './islands/StickTable.tsx': $$2,
   },
   baseUrl: import.meta.url,
 };
