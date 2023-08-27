@@ -1,6 +1,6 @@
 import type { Signal } from "@preact/signals";
 import { sticksVirFirth } from "../utils/vic_firth.ts";
-import { DrumStick } from "../utils/if.ts";
+import { AllSticks, DrumStick } from "../utils/if.ts";
 import { StickFilterParams } from "./StickFilter.tsx";
 import { StateUpdater, useEffect, useMemo } from "preact/hooks";
 import { fetchStickList } from "../utils/StickUtils.ts";
@@ -10,17 +10,16 @@ interface Props {
   stickListRaw: Signal<DrumStick[]>;
 }
 
-// const debugMode = true;
+const debugMode = true;
 
 export default function StickTable(props: Props) {
   const { stickListRaw, filterParam } = props;
 
   useEffect(() => {
-    //
-    // if (debugMode) {
-    //   stickListRaw.value = [...sticksVirFirth];
-    //   return;
-    // }
+    if (debugMode) {
+      stickListRaw.value = [...AllSticks];
+      return;
+    }
     if ("caches" in window) {
       caches.open("drumstick-json").then((cache) => {
         cache
@@ -78,7 +77,8 @@ export default function StickTable(props: Props) {
           <tr class="border border-slate-300">
             <th class="w-32 text-left">Maker</th>
             <th class="w-64 text-left">Name</th>
-            <th class="w-32 text-left">Tip</th>
+            <th class="w-32 text-left">Tip-Shape</th>
+            <th class="w-32 text-left">Tip-Material</th>
             <th class="w-32 text-left">Material</th>
             <th class="w-32 text-left">Diameter(mm)</th>
             <th class="w-32 text-left">Length(mm)</th>
@@ -90,7 +90,8 @@ export default function StickTable(props: Props) {
               <tr class="border border-slate-300 ">
                 <td class="min-w-min">{stick.maker}</td>
                 <td class="min-w-min">{stick.name}</td>
-                <td class="min-w-min">{stick.tip}</td>
+                <td class="min-w-min">{stick.tip_shape}</td>
+                <td class="min-w-min">{stick.tip_material}</td>
                 <td class="min-w-min">{stick.material}</td>
                 <td class="min-w-min">{stick.diameter_mm}</td>
                 <td class="min-w-min">{stick.length_mm}</td>
