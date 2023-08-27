@@ -42,7 +42,7 @@ export default function StickFilter(props: Props) {
 
   return (
     <>
-      <div id="modal" class="hidden target:block">
+      <div id="modal_filter" class="hidden target:block">
         <div class="block w-full h-full bg-black/70 fixed top-0 left-0">
           <a href="#" class="block w-full h-full cursor-default"></a>
           <div class="w-3/4 mx-auto mt-20 relative -top-full">

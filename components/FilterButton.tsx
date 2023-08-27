@@ -1,7 +1,7 @@
 export default function FilterButton() {
   return (
     <button class="border border-slate-300 rounded-md p-2">
-      <a href="#modal">
+      <a href="#modal_filter">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="24"
