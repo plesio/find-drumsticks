@@ -1,6 +1,6 @@
-import {DrumStickMetaIf} from "./if.ts";
+import { DrumStick } from "./if.ts";
 
-export const sticksVirFirth: ReadonlyArray<DrumStickMetaIf> = [
+export const sticksVirFirth: ReadonlyArray<DrumStick> = [
   {
     name: "American Classic 5A",
     maker: "VicFirth",

@@ -1,10 +1,9 @@
 {
   "lock": false,
   "tasks": {
-    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "start": "deno run -A --watch=static/,routes/,utils/ dev.ts",
     "update": "deno run -A -r https://fresh.deno.dev/update .",
-    "build": "deno run -A dev.ts build",
-    "preview": "deno run -A main.ts"
+    "convert:json" : "deno run -A utils/convertStickData2Json.ts"
   },
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.4.2/",

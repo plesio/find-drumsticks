@@ -1,4 +1,4 @@
-export interface DrumStickMetaIf {
+export interface DrumStick {
   maker: Makers;
   name: string;
   material: string;
