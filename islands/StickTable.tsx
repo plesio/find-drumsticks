@@ -10,16 +10,16 @@ interface Props {
   stickListRaw: Signal<DrumStick[]>;
 }
 
-const debugMode = true;
+// const debugMode = true;
 
 export default function StickTable(props: Props) {
   const { stickListRaw, filterParam } = props;
 
   useEffect(() => {
-    if (debugMode) {
-      stickListRaw.value = [...AllSticks];
-      return;
-    }
+    // if (debugMode) {
+    //   stickListRaw.value = [...AllSticks];
+    //   return;
+    // }
     if ("caches" in window) {
       caches.open("drumstick-json").then((cache) => {
         cache
