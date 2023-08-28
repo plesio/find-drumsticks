@@ -3,6 +3,7 @@ import { sticksLerni } from './stickdata/lerni.ts';
 import { sticksLosCabos } from './stickdata/loscabos.ts';
 import { sticksMeinl } from './stickdata/meinl.ts';
 import { sticksPearl } from './stickdata/pearl.ts';
+import { sticksPlaywood } from "./stickdata/playwood.ts";
 import { sticksProMark } from './stickdata/promark.ts';
 import { sticksRegalTip } from './stickdata/regaltip.ts';
 import { sticksTama } from './stickdata/tama.ts';
@@ -26,6 +27,7 @@ export const AllSticks = [
   ...sticksYamaha,
   ...sticksLerni,
   ...sticksLosCabos,
+  ...sticksPlaywood
 ] as const;
 
 export interface DrumStick {
@@ -56,6 +58,7 @@ export const Makers = {
   Canopus: 'Canopus',
   Lerni: 'Lerni',
   LosCabos: 'LosCabos',
+  PLAYWOOD: 'PLAYWOOD',
 } as const;
 
 export type Makers = typeof Makers[keyof typeof Makers];
