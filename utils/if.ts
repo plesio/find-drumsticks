@@ -1,18 +1,20 @@
-import { sticksCanopus } from "./canopus.ts";
-import { sticksTama } from "./tama.ts";
-import { sticksVirFirth } from "./vic_firth.ts";
+import { sticksCanopus } from "./stickdata/canopus.ts";
+import { sticksPearl } from "./stickdata/pearl.ts";
+import { sticksTama } from "./stickdata/tama.ts";
+import { sticksVirFirth } from "./stickdata/vic_firth.ts";
 
 export const AllSticks = [
   ...sticksVirFirth,
   ...sticksCanopus,
-  ...sticksTama
+  ...sticksTama,
+  ...sticksPearl
 ] as const;
 
 export interface DrumStick {
   maker: Makers;
   name: string;
   part_number: string;
-  material: string;
+  material: MaterialType;
   tip_shape: TipShapes;
   tip_material: TipMaterials;
   taper: TaperType;
@@ -28,7 +30,7 @@ export const Makers = {
   RegalTip: "RegalTip",
   Wincent: "Wincent",
   Tama: "Tama",
-  //Pearl: "Pearl",
+  Pearl: "Pearl",
   Yamaha: "Yamaha",
   Ahead: "Ahead",
   Meinl: "Meinl",
@@ -70,3 +72,11 @@ export const TaperType = {
 } as const;
 
 export type TaperType = typeof TaperType[keyof typeof TaperType];
+
+export const MaterialType = {
+  Maple: "Maple",
+  Hickory: "Hickory",
+  Oak: "Oak",
+}
+
+export type MaterialType = typeof MaterialType[keyof typeof MaterialType];

@@ -1,5 +1,4 @@
 import type { Signal } from "@preact/signals";
-import { sticksVirFirth } from "../utils/vic_firth.ts";
 import { AllSticks, DrumStick } from "../utils/if.ts";
 import { StickFilterParams } from "./StickFilter.tsx";
 import { StateUpdater, useEffect, useMemo } from "preact/hooks";

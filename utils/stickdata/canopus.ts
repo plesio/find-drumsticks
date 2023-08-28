@@ -1,4 +1,4 @@
-import { DrumStick } from "./if.ts";
+import { DrumStick } from "../if.ts";
 
 export const sticksCanopus: ReadonlyArray<DrumStick> = [
     {

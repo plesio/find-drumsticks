@@ -1,6 +1,5 @@
 import type { Signal } from "@preact/signals";
 import { signal } from "@preact/signals";
-import { sticksVirFirth } from "../utils/vic_firth.ts";
 import { Makers, TipShapes } from "../utils/if.ts";
 import { useCallback } from "preact/hooks";
 
