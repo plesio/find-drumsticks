@@ -117,7 +117,7 @@ export default function StickTable(props: Props) {
             <th class='w-32 text-left whitespace-nowrap'>T-Shape</th>
             <th class='w-32 text-left whitespace-nowrap'>T-Mat.</th>
             <th class='w-32 text-left whitespace-nowrap'>Material</th>
-            <th class='w-32 text-left whitespace-nowrap'>Taper</th>
+            {/* <th class='w-32 text-left whitespace-nowrap'>Taper</th> */}
             <th class='w-32 text-left whitespace-nowrap'>Diameter(mm)</th>
             <th class='w-32 text-left whitespace-nowrap'>Length(mm)</th>
           </tr>
@@ -131,7 +131,7 @@ export default function StickTable(props: Props) {
                 <td class='min-w-min'>{stick.tip_shape}</td>
                 <td class='min-w-min'>{stick.tip_material}</td>
                 <td class='min-w-min'>{stick.material}</td>
-                <td class='min-w-min'>{stick.taper}</td>
+                {/* <td class='min-w-min'>{stick.taper}</td> */}
                 <td class='min-w-min'>{stick.diameter_mm}</td>
                 <td class='min-w-min'>{stick.length_mm}</td>
               </tr>
