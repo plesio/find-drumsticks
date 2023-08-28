@@ -71,6 +71,15 @@ export default function StickTable(props: Props) {
       }
     })();
 
+    // -- material
+    const material = filterParam.value.material;
+    list = (() => {
+      if (!material || material.length === 0) return list;
+      else {
+        return list.filter((stick) => material.includes(stick.material));
+      }
+    })();
+
     // -- length
     const length_mm_min = filterParam.value.length_mm_min;
     list = (() => {

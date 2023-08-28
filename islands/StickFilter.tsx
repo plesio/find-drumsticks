@@ -1,6 +1,6 @@
 import type { Signal } from '@preact/signals';
 import { signal, useSignal } from '@preact/signals';
-import { Makers, TipShapes, TipShapesArray } from '../utils/if.ts';
+import { Makers, MaterialTypeArray, TipShapes, TipShapesArray } from '../utils/if.ts';
 import { useCallback } from 'preact/hooks';
 
 export interface StickFilterParams {
@@ -51,6 +51,19 @@ export default function StickFilter(props: Props) {
       props.filterParam.value = { ...props.filterParam.value, tips: [] };
     } else {
       props.filterParam.value = { ...props.filterParam.value, tips: [tipShape as TipShapes] };
+    }
+    //console.log(props.filterParam.value);
+    // props が変化したことを通知する
+    handleChangeParam();
+  }, []);
+
+  const handleOnChangeMaterial = useCallback((e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const material = target.value ?? '';
+    if (!material || !MaterialTypeArray.map((it) => `${it}`).includes(material)) {
+      props.filterParam.value = { ...props.filterParam.value, material: undefined };
+    } else {
+      props.filterParam.value = { ...props.filterParam.value, material };
     }
     //console.log(props.filterParam.value);
     // props が変化したことを通知する
@@ -182,6 +195,25 @@ export default function StickFilter(props: Props) {
                   <option selected value=''>Choose a tip shape</option>
                   {TipShapesArray.map((tip) => {
                     return <option value={tip}>{tip}</option>;
+                  })}
+                </select>
+              </div>
+
+              <div class='pb-2 px-4'>
+                <label
+                  for='stick_material'
+                  class='block text-sm font-bold text-slate-900'
+                >
+                  Material Filter
+                </label>
+                <select
+                  id='stick_material'
+                  class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                  onChange={handleOnChangeMaterial}
+                >
+                  <option selected value=''>Choose a Stick Material</option>
+                  {MaterialTypeArray.map((material) => {
+                    return <option value={material}>{material}</option>;
                   })}
                 </select>
               </div>

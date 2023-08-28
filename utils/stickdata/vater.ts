@@ -2,7 +2,7 @@ import { DrumStick } from "../if.ts";
 
 export const sticksVater: ReadonlyArray<DrumStick> = [
     {
-        name: "CHAD SMITH's Funk Blaster",
+        name: "Funk Blaster Chad Smith Model",
         part_number: "VHCHADW",
         maker: "Vater",
         tip_shape: "Acorn",
@@ -58,6 +58,28 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
         diameter_mm: 14.5,
     },
     {
+        name: "Concert",
+        part_number: "VSMCW",
+        maker: "Vater",
+        tip_shape: "Round",
+        tip_material: "Wood",
+        material: "Maple",
+        taper: "Unknown",
+        length_mm: 419,
+        diameter_mm: 16.0,
+    },
+    {
+        name: "Piccolo",
+        part_number: "VSMPW",
+        maker: "Vater",
+        tip_shape: "Round",
+        tip_material: "Wood",
+        material: "Maple",
+        taper: "Unknown",
+        length_mm: 406,
+        diameter_mm: 16.0,
+    },
+    {
         name: "SugarMaple 7A",
         part_number: "SM-7A",
         maker: "Vater",
@@ -67,6 +89,17 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
         taper: "Unknown",
         length_mm: 407,
         diameter_mm: 13.7,
+    },
+    {
+        name: "SugarMaple Super Jazz",
+        part_number: "VSMSJW",
+        maker: "Vater",
+        tip_shape: "Oval",
+        tip_material: "Wood",
+        material: "Maple",
+        taper: "Unknown",
+        length_mm: 413,
+        diameter_mm: 14.0,
     },
     {
         name: "Sweet Ride",

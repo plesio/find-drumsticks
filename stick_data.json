@@ -297,6 +297,28 @@
     "diameter_mm": 15.9
   },
   {
+    "name": "SD1W",
+    "part_number": "SD1W",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 416,
+    "diameter_mm": 16.1
+  },
+  {
+    "name": "SD2W",
+    "part_number": "SD2W",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 400.1,
+    "diameter_mm": 16.1
+  },
+  {
     "name": "BILL BRUFORD Maple",
     "part_number": "SD4W",
     "maker": "ProMark",
@@ -473,7 +495,7 @@
     "diameter_mm": 13
   },
   {
-    "name": "CHAD SMITH's Funk Blaster",
+    "name": "Funk Blaster Chad Smith Model",
     "part_number": "VHCHADW",
     "maker": "Vater",
     "tip_shape": "Acorn",
@@ -528,6 +550,28 @@
     "diameter_mm": 14.5
   },
   {
+    "name": "Concert",
+    "part_number": "VSMCW",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Piccolo",
+    "part_number": "VSMPW",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 16
+  },
+  {
     "name": "SugarMaple 7A",
     "part_number": "SM-7A",
     "maker": "Vater",
@@ -537,6 +581,17 @@
     "taper": "Unknown",
     "length_mm": 407,
     "diameter_mm": 13.7
+  },
+  {
+    "name": "SugarMaple Super Jazz",
+    "part_number": "VSMSJW",
+    "maker": "Vater",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 413,
+    "diameter_mm": 14
   },
   {
     "name": "Sweet Ride",
@@ -858,6 +913,39 @@
     "diameter_mm": 14.6
   },
   {
+    "name": "2B Maple",
+    "part_number": "2B Maple",
+    "maker": "LosCabos",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Concert Maple",
+    "part_number": "Concert Maple",
+    "maker": "LosCabos",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 16.1
+  },
+  {
+    "name": "Tatsuya Nakamura Signature",
+    "part_number": "GR-TN101B",
+    "maker": "GRETSCH",
+    "tip_shape": "Barrel",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 14
+  },
+  {
     "name": "O-14A",
     "part_number": "O-14A",
     "maker": "PLAYWOOD",
@@ -1021,5 +1109,115 @@
     "taper": "Unknown",
     "length_mm": 400,
     "diameter_mm": 14.5
+  },
+  {
+    "name": "M-15A",
+    "part_number": "M-15A",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 15
+  },
+  {
+    "name": "M-15B",
+    "part_number": "M-15B",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 15
+  },
+  {
+    "name": "M-15C",
+    "part_number": "M-15C",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 15
+  },
+  {
+    "name": "M-15D",
+    "part_number": "M-15D",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 15
+  },
+  {
+    "name": "M-15E",
+    "part_number": "M-15E",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 15
+  },
+  {
+    "name": "M-16A",
+    "part_number": "M-16A",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 16
+  },
+  {
+    "name": "M-16B",
+    "part_number": "M-16B",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 16
+  },
+  {
+    "name": "M-16C",
+    "part_number": "M-16C",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 16
+  },
+  {
+    "name": "M-16D",
+    "part_number": "M-16D",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 16
+  },
+  {
+    "name": "M-16E",
+    "part_number": "M-16E",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 16
   }
 ]

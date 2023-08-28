@@ -1,4 +1,5 @@
 import { sticksCanopus } from './stickdata/canopus.ts';
+import { sticksGretsch } from './stickdata/gretsch.ts';
 import { sticksLerni } from './stickdata/lerni.ts';
 import { sticksLosCabos } from './stickdata/loscabos.ts';
 import { sticksMeinl } from './stickdata/meinl.ts';
@@ -27,6 +28,7 @@ export const AllSticks = [
   ...sticksYamaha,
   ...sticksLerni,
   ...sticksLosCabos,
+  ...sticksGretsch,
   ...sticksPlaywood
 ] as const;
 
@@ -59,6 +61,7 @@ export const Makers = {
   Lerni: 'Lerni',
   LosCabos: 'LosCabos',
   PLAYWOOD: 'PLAYWOOD',
+  GRETSCH: 'GRETSCH',
 } as const;
 
 export type Makers = typeof Makers[keyof typeof Makers];
@@ -105,3 +108,4 @@ export const MaterialType = {
 };
 
 export type MaterialType = typeof MaterialType[keyof typeof MaterialType];
+export const MaterialTypeArray = Object.values(MaterialType);
