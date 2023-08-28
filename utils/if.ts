@@ -1,10 +1,14 @@
 import { sticksCanopus } from "./stickdata/canopus.ts";
+import { sticksMeinl } from "./stickdata/meinl.ts";
 import { sticksPearl } from "./stickdata/pearl.ts";
+import { sticksProMark } from "./stickdata/promark.ts";
 import { sticksTama } from "./stickdata/tama.ts";
 import { sticksVirFirth } from "./stickdata/vic_firth.ts";
 
 export const AllSticks = [
   ...sticksVirFirth,
+  ...sticksProMark,
+  ...sticksMeinl,
   ...sticksCanopus,
   ...sticksTama,
   ...sticksPearl
