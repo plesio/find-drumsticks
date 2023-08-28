@@ -2,9 +2,11 @@ import { sticksCanopus } from "./stickdata/canopus.ts";
 import { sticksMeinl } from "./stickdata/meinl.ts";
 import { sticksPearl } from "./stickdata/pearl.ts";
 import { sticksProMark } from "./stickdata/promark.ts";
+import { sticksRegalTip } from "./stickdata/regaltip.ts";
 import { sticksTama } from "./stickdata/tama.ts";
 import { sticksVater } from "./stickdata/vater.ts";
-import { sticksVirFirth } from "./stickdata/vic_firth.ts";
+import { sticksVirFirth } from "./stickdata/vicfirth.ts";
+import { sticksZildjian } from "./stickdata/zildjian.ts";
 
 export const AllSticks = [
   ...sticksVirFirth,
@@ -13,7 +15,9 @@ export const AllSticks = [
   ...sticksCanopus,
   ...sticksTama,
   ...sticksPearl,
-  ...sticksVater
+  ...sticksVater,
+  ...sticksZildjian,
+  ...sticksRegalTip,
 ] as const;
 
 export interface DrumStick {
@@ -48,7 +52,6 @@ export type Makers = typeof Makers[keyof typeof Makers];
 
 export const TipShapes = {
   Round: "Round",
-  Ball: "Ball",
   Barrel: "Barrel",
   Acorn: "Acorn",
   Oval: "Oval",
@@ -56,6 +59,7 @@ export const TipShapes = {
   Triangle: "Triangle",
   Reverse_Teardrop: "Reverse_Teardrop",
   Reverse_Triangle: "Reverse_Triangle",
+  None: "None",
   Unknown: "Unknown",
 } as const
 

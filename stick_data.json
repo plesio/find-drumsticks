@@ -44,7 +44,7 @@
     "diameter_mm": 13.7
   },
   {
-    "name": "AMERICAN CLASSIC 7ATN TERRA SERIES DRUMSTICKS, NYLON TIP",
+    "name": "AMERICAN CLASSIC 7ATN",
     "part_number": "VIC-7ATN",
     "maker": "VicFirth",
     "tip_shape": "Teardrop",
@@ -385,10 +385,21 @@
     "diameter_mm": 14
   },
   {
+    "name": "CP-TH Kodachi",
+    "part_number": "CP-TH",
+    "maker": "Canopus",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 403,
+    "diameter_mm": 13
+  },
+  {
     "name": "H214-B",
     "part_number": "H214-B",
     "maker": "Tama",
-    "tip_shape": "Ball",
+    "tip_shape": "Round",
     "tip_material": "Wood",
     "material": "Hickory",
     "taper": "Unknown",
@@ -427,5 +438,126 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 15.5
+  },
+  {
+    "name": "Fusion",
+    "part_number": "VHFW",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "SD1 Concert General",
+    "part_number": "SD1",
+    "maker": "Vater",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Blazer",
+    "part_number": "BLAZER",
+    "maker": "Vater",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 41.3,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "Hammer",
+    "part_number": "HAMMER",
+    "maker": "Vater",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 406,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "SugarMaple 7A",
+    "part_number": "SM-7A",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 407,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "Sweet Ride",
+    "part_number": "SWEET RIDE",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13.6
+  },
+  {
+    "name": "A5 Natural",
+    "part_number": "LAZLZ5A",
+    "maker": "Zildjian",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.2
+  },
+  {
+    "name": "4A",
+    "part_number": "Hickory 204R",
+    "maker": "RegalTip",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 14
+  },
+  {
+    "name": "5A",
+    "part_number": "Hickory 205R",
+    "maker": "RegalTip",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "2B",
+    "part_number": "Hickory 222R",
+    "maker": "RegalTip",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 16.6
+  },
+  {
+    "name": "5B",
+    "part_number": "Hickory 225R",
+    "maker": "RegalTip",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.2
   }
 ]

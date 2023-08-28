@@ -9,16 +9,16 @@ interface Props {
   stickListRaw: Signal<DrumStick[]>;
 }
 
-const debugMode = true;
+// const debugMode = true;
 
 export default function StickTable(props: Props) {
   const { stickListRaw, filterParam } = props;
 
   useEffect(() => {
-    if (debugMode) {
-      stickListRaw.value = [...AllSticks];
-      return;
-    }
+    // if (debugMode) {
+    //   stickListRaw.value = [...AllSticks];
+    //   return;
+    // }
     if ('caches' in window) {
       caches.open('drumstick-json').then((cache) => {
         cache
@@ -84,6 +84,22 @@ export default function StickTable(props: Props) {
       if (!length_mm_max) return list;
       else {
         return list.filter((stick) => stick.length_mm <= length_mm_max);
+      }
+    })();
+
+    // -- diameter
+    const diameter_mm_min = filterParam.value.diameter_mm_min;
+    list = (() => {
+      if (!diameter_mm_min) return list;
+      else {
+        return list.filter((stick) => stick.diameter_mm >= diameter_mm_min);
+      }
+    })();
+    const diameter_mm_max = filterParam.value.diameter_mm_max;
+    list = (() => {
+      if (!diameter_mm_max) return list;
+      else {
+        return list.filter((stick) => stick.diameter_mm <= diameter_mm_max);
       }
     })();
 

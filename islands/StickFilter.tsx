@@ -19,8 +19,10 @@ export interface Props {
 }
 
 export default function StickFilter(props: Props) {
-  const lengthMax = useSignal(props.filterParam.value.length_mm_max ?? 450.0);
-  const lengthMin = useSignal(props.filterParam.value.length_mm_min ?? 360.0);
+  const lengthMax = useSignal(props.filterParam.value.length_mm_max ?? 430.0);
+  const lengthMin = useSignal(props.filterParam.value.length_mm_min ?? 370.0);
+  const diameterMax = useSignal(props.filterParam.value.diameter_mm_max ?? 17.0);
+  const diameterMin = useSignal(props.filterParam.value.diameter_mm_min ?? 10.0);
 
   const handleChangeParam = () => {
     if ('caches' in window) {
@@ -86,6 +88,40 @@ export default function StickFilter(props: Props) {
     // 表示を操作する.
   }, []);
 
+  const handleInputdiameterMin = useCallback((e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const diameter_mm_min = Number(target.value) ?? 10;
+    diameterMin.value = diameter_mm_min;
+  }, []);
+
+  const handleChangediameterMin = useCallback((e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const diameter_mm_min = Number(target.value) ?? 10;
+    diameterMin.value = diameter_mm_min;
+    props.filterParam.value = { ...props.filterParam.value, diameter_mm_min };
+    //console.log(props.filterParam.value);
+    // props が変化したことを通知する
+    handleChangeParam();
+    // 表示を操作する.
+  }, []);
+
+  const handleInputdiameterMax = useCallback((e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const diameter_mm_max = Number(target.value) ?? 17;
+    diameterMax.value = diameter_mm_max;
+  }, []);
+
+  const handleChangediameterMax = useCallback((e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const diameter_mm_max = Number(target.value) ?? 17;
+    diameterMax.value = diameter_mm_max;
+    props.filterParam.value = { ...props.filterParam.value, diameter_mm_max };
+    //console.log(props.filterParam.value);
+    // props が変化したことを通知する
+    handleChangeParam();
+    // 表示を操作する.
+  }, []);
+
   return (
     <>
       <div id='modal_filter' class='hidden target:block'>
@@ -114,7 +150,7 @@ export default function StickFilter(props: Props) {
                   </a>
                 </button>
               </div>
-              <div class='p-4'>
+              <div class='pt-4 pb-2 px-4'>
                 <label
                   for='stick_name'
                   class='block text-sm font-bold text-slate-900'
@@ -128,7 +164,7 @@ export default function StickFilter(props: Props) {
                   onChange={handleOnChangeName}
                 />
               </div>
-              <div class='pb-4 px-4'>
+              <div class='pb-2 px-4'>
                 <label
                   for='stick_tip_shape'
                   class='block text-sm font-bold text-slate-900'
@@ -147,46 +183,108 @@ export default function StickFilter(props: Props) {
                 </select>
               </div>
 
-              <div class='p-4'>
+              <div class='pb-2 px-4'>
                 <label
                   for='stick_length_min_range'
                   class='block text-sm font-bold text-slate-900'
                 >
                   Length Min Range [{lengthMin.value}]
                 </label>
-                <input
-                  id='stick_length_min_range'
-                  value={lengthMin.value}
-                  type='range'
-                  class='transparent h-[4px] w-full cursor-pointer
+
+                <span class='align-center'>
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={lengthMin.value} min='360.0' max='440.0' step='0.1' onChange={handleChangeLengthMin} />
+                  <span class='mx-2'></span>
+                  <input
+                    id='stick_length_min_range'
+                    value={lengthMin.value}
+                    type='range'
+                    class='transparent h-[8px] w-3/6 cursor-pointer
   appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
-                  min='360.0'
-                  max='440.0'
-                  step='0.1'
-                  onChange={handleChangeLengthMin}
-                  onInput={handleInputLengthMin}
-                />
+                    min='370.0'
+                    max='430.0'
+                    step='0.1'
+                    onChange={handleChangeLengthMin}
+                    onInput={handleInputLengthMin}
+                  />
+                </span>
               </div>
 
-              <div class='p-4'>
+              <div class='pb-2 px-4'>
                 <label
                   for='stick_length_max_range'
                   class='block text-sm font-bold text-slate-900'
                 >
                   Length Max Range [{lengthMax.value}]
                 </label>
-                <input
-                  id='stick_length_max_range'
-                  value={lengthMax.value}
-                  type='range'
-                  class='transparent h-[4px] w-full cursor-pointer
+
+                <span class='align-center'>
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={lengthMax.value} min='360.0' max='440.0' step='0.1' onChange={handleChangeLengthMax} />
+                  <span class='mx-2'></span>
+                  <input
+                    id='stick_length_max_range'
+                    value={lengthMax.value}
+                    type='range'
+                    class='transparent h-[8px] w-3/6 cursor-pointer
   appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
-                  min='360.0'
-                  max='440.0'
-                  step='0.1'
-                  onChange={handleChangeLengthMax}
-                  onInput={handleInputLengthMax}
-                />
+                    min='370.0'
+                    max='430.0'
+                    step='0.1'
+                    onChange={handleChangeLengthMax}
+                    onInput={handleInputLengthMax}
+                  />
+                </span>
+              </div>
+
+              <div class='pb-2 px-4'>
+                <label
+                  for='stick_diameter_min_range'
+                  class='block text-sm font-bold text-slate-900'
+                >
+                  Diameter Min Range [{diameterMin.value}]
+                </label>
+
+                <span class='align-center'>
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMin.value} min='10.0' max='17.0' step='0.1' onChange={handleChangediameterMin} />
+                  <span class='mx-2'></span>
+                  <input
+                    id='stick_diameter_min_range'
+                    value={diameterMin.value}
+                    type='range'
+                    class='transparent h-[8px] w-3/6 cursor-pointer
+  appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
+                    min='10.0'
+                    max='17.0'
+                    step='0.1'
+                    onChange={handleChangediameterMin}
+                    onInput={handleInputdiameterMin}
+                  />
+                </span>
+              </div>
+
+              <div class='pb-2 px-4'>
+                <label
+                  for='stick_diameter_max_range'
+                  class='block text-sm font-bold text-slate-900'
+                >
+                  Diameter Max Range [{diameterMax.value}]
+                </label>
+
+                <span class='align-center'>
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMax.value} min='10.0' max='17.0' step='0.1' onChange={handleChangediameterMax} />
+                  <span class='mx-2'></span>
+                  <input
+                    id='stick_diameter_max_range'
+                    value={diameterMax.value}
+                    type='range'
+                    class='transparent h-[8px] w-3/6 cursor-pointer
+  appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
+                    min='10.0'
+                    max='17.0'
+                    step='0.1'
+                    onChange={handleChangediameterMax}
+                    onInput={handleInputdiameterMax}
+                  />
+                </span>
               </div>
             </div>
           </div>

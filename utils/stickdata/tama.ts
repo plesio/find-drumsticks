@@ -5,7 +5,7 @@ export const sticksTama: ReadonlyArray<DrumStick> = [
         name: "H214-B",
         part_number: "H214-B",
         maker: "Tama",
-        tip_shape: "Ball",
+        tip_shape: "Round",
         tip_material: "Wood",
         material: "Hickory",
         taper: "Unknown",
