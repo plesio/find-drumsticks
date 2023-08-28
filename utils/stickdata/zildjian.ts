@@ -2,7 +2,7 @@ import { DrumStick } from "../if.ts";
 
 export const sticksZildjian: ReadonlyArray<DrumStick> = [
     {
-        name: "A5 Natural",
+        name: "5A Natural",
         part_number: "LAZLZ5A",
         maker: "Zildjian",
         tip_shape: "Oval",
