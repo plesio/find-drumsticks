@@ -46,7 +46,7 @@ export const sticksVirFirth: ReadonlyArray<DrumStick> = [
     diameter_mm: 13.7,
   },
   {
-    name: "AMERICAN CLASSIC 7ATN TERRA SERIES DRUMSTICKS, NYLON TIP",
+    name: "AMERICAN CLASSIC 7ATN",
     part_number: "VIC-7ATN",
     maker: "VicFirth",
     tip_shape: "Teardrop",

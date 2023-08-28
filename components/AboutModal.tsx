@@ -2,10 +2,31 @@ export default function AboutModal() {
   return (
     <>
       <div id="modal_about" class="hidden target:block">
-        <div class="block w-full h-full bg-black/70 fixed top-0 left-0">
+        <div class="block  w-full h-full bg-black/70 fixed top-0 left-0 overflow-y-auto">
           <a href="#" class="block w-full h-full cursor-default"></a>
-          <div class="w-3/4 mx-auto mt-20 relative -top-full">
+
+          <div class="xs:max-w-xs md:w-full mx-auto lg:w-3/4 xs:p-4 md:px-4 lg:px-auto md:my-4 lg:my-10 relative -top-full">
             <div class="bg-white rounded-lg shadow-lg">
+              <div class="absolute top-2 right-1/2">
+                <button type="button" class="" aria-label="Close">
+                  <a href="#" class="block w-full h-full cursor-default">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </a>
+                </button>
+              </div>
               <div class="p-4">
                 <p class="text-2xl font-bold">About</p>
                 <p class="text-sm pl-6">

@@ -60,6 +60,7 @@ export const TipShapes = {
 } as const
 
 export type TipShapes = typeof TipShapes[keyof typeof TipShapes];
+export const TipShapesArray = Object.values(TipShapes);
 
 export const TipMaterials = {
   Wood: "Wood",
