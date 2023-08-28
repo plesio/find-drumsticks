@@ -253,6 +253,50 @@
     "diameter_mm": 15.9
   },
   {
+    "name": "BILL BRUFORD Maple",
+    "part_number": "SD4W",
+    "maker": "ProMark",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "ExtraLong",
+    "length_mm": 403.2,
+    "diameter_mm": 13.5
+  },
+  {
+    "name": "TODD SUCHERMAN Maple",
+    "part_number": "SD330W",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Medium",
+    "length_mm": 406.4,
+    "diameter_mm": 15.2
+  },
+  {
+    "name": "JASON BONHAM Maple",
+    "part_number": "SD531W",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Medium",
+    "length_mm": 425.5,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "Concert One Orchestra",
+    "part_number": "TXC1W",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 428.6,
+    "diameter_mm": 16.4
+  },
+  {
     "name": "Concert SD1",
     "part_number": "SB113",
     "maker": "Meinl",
@@ -372,5 +416,16 @@
     "taper": "Medium",
     "length_mm": 397,
     "diameter_mm": 13
+  },
+  {
+    "name": "CHAD SMITH's Funk Blaster",
+    "part_number": "VHCHADW",
+    "maker": "Vater",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.5
   }
 ]

@@ -3,6 +3,7 @@ import { sticksMeinl } from "./stickdata/meinl.ts";
 import { sticksPearl } from "./stickdata/pearl.ts";
 import { sticksProMark } from "./stickdata/promark.ts";
 import { sticksTama } from "./stickdata/tama.ts";
+import { sticksVater } from "./stickdata/vater.ts";
 import { sticksVirFirth } from "./stickdata/vic_firth.ts";
 
 export const AllSticks = [
@@ -11,7 +12,8 @@ export const AllSticks = [
   ...sticksMeinl,
   ...sticksCanopus,
   ...sticksTama,
-  ...sticksPearl
+  ...sticksPearl,
+  ...sticksVater
 ] as const;
 
 export interface DrumStick {
@@ -68,6 +70,7 @@ export const TipMaterials = {
 export type TipMaterials = typeof TipMaterials[keyof typeof TipMaterials];
 
 export const TaperType = {
+  ExtraLong: "ExtraLong",
   Long: "Long",
   Medium: "Medium",
   Short: "Short",
