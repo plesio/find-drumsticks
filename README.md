@@ -1,16 +1,17 @@
-# Fresh project
+# [Find Your Favorite Drum Sticks](https://find-drumsticks.deno.dev)
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+説明するほどの機能はないので、自分だけの1本の予備を見つけてくださいな。
 
-### Usage
+## 制限事項
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+- 初回ロードはどうしても遅いのと、ブラウザのキャッシュ機能がOFFになっていると、毎回遅いです。
+  - Deno Deploy上でのデータ通信量を削減する必要があり、フロントエンド上でごにょごにょしているためです。
 
-Then start the project:
+## License
 
-```
-deno task start
-```
+私が実装した部分は基本的にMITライセンスとします。
 
-This will watch the project directory and restart as necessary.
+ドラムスティックのメタ情報は、メーカーや販売代理店に迷惑のかからない範囲で活用してください。  
+ここのデータを丸パクリしても別に構いませんし、逆にデータ追記のPRをなげたりしてくれるとうれしいです。
+
+一方で、ここのリポジトリのデータを使って、勝手に有償サービスをとか立ち上げたりなんかすると、私じゃなくてメーカーや販売代理店から怒られが発生する可能性が非常に高いので、気をつけましょう。
