@@ -6,6 +6,8 @@ import { sticksRegalTip } from "./stickdata/regaltip.ts";
 import { sticksTama } from "./stickdata/tama.ts";
 import { sticksVater } from "./stickdata/vater.ts";
 import { sticksVirFirth } from "./stickdata/vicfirth.ts";
+import { sticksWincent } from "./stickdata/wincent.ts";
+import { sticksYamaha } from "./stickdata/yamaha.ts";
 import { sticksZildjian } from "./stickdata/zildjian.ts";
 
 export const AllSticks = [
@@ -18,6 +20,8 @@ export const AllSticks = [
   ...sticksVater,
   ...sticksZildjian,
   ...sticksRegalTip,
+  ...sticksWincent,
+  ...sticksYamaha
 ] as const;
 
 export interface DrumStick {
