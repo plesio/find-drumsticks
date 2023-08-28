@@ -1,6 +1,7 @@
 [
   {
     "name": "American Classic 5A",
+    "part_number": "VIC-5A",
     "maker": "VicFirth",
     "tip_shape": "Teardrop",
     "tip_material": "Wood",
@@ -10,7 +11,19 @@
     "diameter_mm": 14.4
   },
   {
+    "name": "American Classic 5A BARREL TIP",
+    "part_number": "VIC-5ABRL",
+    "maker": "VicFirth",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 407,
+    "diameter_mm": 14.4
+  },
+  {
     "name": "American Classic 5B",
+    "part_number": "VIC-5B",
     "maker": "VicFirth",
     "tip_shape": "Teardrop",
     "tip_material": "Wood",
@@ -20,7 +33,30 @@
     "diameter_mm": 15.1
   },
   {
+    "name": "American Classic 7A",
+    "part_number": "VIC-7A",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 394,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "AMERICAN CLASSIC 7ATN TERRA SERIES DRUMSTICKS, NYLON TIP",
+    "part_number": "VIC-7ATN",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 394,
+    "diameter_mm": 13.7
+  },
+  {
     "name": "AMERICAN CUSTOM SD1 GENERAL",
+    "part_number": "VIC-SD1",
     "maker": "VicFirth",
     "tip_shape": "Round",
     "tip_material": "Wood",
@@ -31,6 +67,7 @@
   },
   {
     "name": "AMERICAN CUSTOM SD2 BOLERO",
+    "part_number": "VIC-SD2",
     "maker": "VicFirth",
     "tip_shape": "Round",
     "tip_material": "Wood",
@@ -40,17 +77,41 @@
     "diameter_mm": 16.1
   },
   {
-    "name": "AMERICAN CLASSIC 7ATN TERRA SERIES",
+    "name": "AMERICAN SOUND 5A",
+    "part_number": "VIC-AS5A",
     "maker": "VicFirth",
-    "tip_shape": "Teardrop",
-    "tip_material": "Nylon",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 407,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "AMERICAN SOUND 5B",
+    "part_number": "VIC-AS5B",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 407,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "AMERICAN SOUND 7A",
+    "part_number": "VIC-AS7A",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
     "material": "Hickory",
     "taper": "Medium",
     "length_mm": 394,
     "diameter_mm": 13.7
   },
   {
-    "name": "CP-AI",
+    "name": "CP-AI AHITO INAZAWA MODEL",
+    "part_number": "CP-AI",
     "maker": "Canopus",
     "tip_shape": "Unknown",
     "tip_material": "Wood",
@@ -60,9 +121,32 @@
     "diameter_mm": 13.8
   },
   {
-    "name": "CP-KK",
+    "name": "CP-KK KUHARA KAZUYUKI MODEL",
+    "part_number": "CP-KK",
     "maker": "Canopus",
     "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14
+  },
+  {
+    "name": "H214-B",
+    "part_number": "H214-B",
+    "maker": "Tama",
+    "tip_shape": "Ball",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14
+  },
+  {
+    "name": "H214-P",
+    "part_number": "H214-P",
+    "maker": "Tama",
+    "tip_shape": "Teardrop",
     "tip_material": "Wood",
     "material": "Hickory",
     "taper": "Unknown",

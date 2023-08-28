@@ -1,14 +1,17 @@
 import { sticksCanopus } from "./canopus.ts";
+import { sticksTama } from "./tama.ts";
 import { sticksVirFirth } from "./vic_firth.ts";
 
 export const AllSticks = [
   ...sticksVirFirth,
-  ...sticksCanopus
+  ...sticksCanopus,
+  ...sticksTama
 ] as const;
 
 export interface DrumStick {
   maker: Makers;
   name: string;
+  part_number: string;
   material: string;
   tip_shape: TipShapes;
   tip_material: TipMaterials;
@@ -28,7 +31,7 @@ export const Makers = {
   //Pearl: "Pearl",
   Yamaha: "Yamaha",
   Ahead: "Ahead",
-  //Meinl: "Meinl",
+  Meinl: "Meinl",
   //Sabian: "Sabian",
   Canopus: "Canopus",
 } as const;
@@ -37,6 +40,7 @@ export type Makers = typeof Makers[keyof typeof Makers];
 
 export const TipShapes = {
   Round: "Round",
+  Ball: "Ball",
   Barrel: "Barrel",
   Acorn: "Acorn",
   Oval: "Oval",
