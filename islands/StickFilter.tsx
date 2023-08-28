@@ -47,8 +47,11 @@ export default function StickFilter(props: Props) {
   const handleOnChangeTipShape = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
     const tipShape = target.value ?? '';
-    if (!tipShape || !TipShapesArray.map((it) => `${it}`).includes(tipShape)) return;
-    props.filterParam.value = { ...props.filterParam.value, tips: [tipShape as TipShapes] };
+    if (!tipShape || !TipShapesArray.map((it) => `${it}`).includes(tipShape)) {
+      props.filterParam.value = { ...props.filterParam.value, tips: [] };
+    } else {
+      props.filterParam.value = { ...props.filterParam.value, tips: [tipShape as TipShapes] };
+    }
     //console.log(props.filterParam.value);
     // props が変化したことを通知する
     handleChangeParam();
@@ -176,7 +179,7 @@ export default function StickFilter(props: Props) {
                   class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                   onChange={handleOnChangeTipShape}
                 >
-                  <option selected>Choose a tip shape</option>
+                  <option selected value=''>Choose a tip shape</option>
                   {TipShapesArray.map((tip) => {
                     return <option value={tip}>{tip}</option>;
                   })}

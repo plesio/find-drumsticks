@@ -9,16 +9,16 @@ interface Props {
   stickListRaw: Signal<DrumStick[]>;
 }
 
-// const debugMode = true;
+const debugMode = true;
 
 export default function StickTable(props: Props) {
   const { stickListRaw, filterParam } = props;
 
   useEffect(() => {
-    // if (debugMode) {
-    //   stickListRaw.value = [...AllSticks];
-    //   return;
-    // }
+    if (debugMode) {
+      stickListRaw.value = [...AllSticks];
+      return;
+    }
     if ('caches' in window) {
       caches.open('drumstick-json').then((cache) => {
         cache
@@ -112,14 +112,14 @@ export default function StickTable(props: Props) {
       <table class='table-auto border-collapse border border-slate-400'>
         <thead>
           <tr class='border border-slate-300'>
-            <th class='w-32 text-left'>Maker</th>
-            <th class='w-64 text-left'>Name</th>
-            <th class='w-32 text-left'>T-Shape</th>
-            <th class='w-32 text-left'>T-Mat.</th>
-            <th class='w-32 text-left'>Material</th>
-            <th class='w-32 text-left'>Taper</th>
-            <th class='w-32 text-left'>Diameter(mm)</th>
-            <th class='w-32 text-left'>Length(mm)</th>
+            <th class='w-32 text-left whitespace-nowrap whitespace-nowrap'>Maker</th>
+            <th class='w-64 text-left whitespace-nowrap'>Name</th>
+            <th class='w-32 text-left whitespace-nowrap'>T-Shape</th>
+            <th class='w-32 text-left whitespace-nowrap'>T-Mat.</th>
+            <th class='w-32 text-left whitespace-nowrap'>Material</th>
+            <th class='w-32 text-left whitespace-nowrap'>Taper</th>
+            <th class='w-32 text-left whitespace-nowrap'>Diameter(mm)</th>
+            <th class='w-32 text-left whitespace-nowrap'>Length(mm)</th>
           </tr>
         </thead>
         <tbody>

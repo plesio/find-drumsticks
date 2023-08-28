@@ -1,14 +1,14 @@
-import { signal, useSignal } from "@preact/signals";
-import StickTable from "../islands/StickTable.tsx";
-import StickFilter, { StickFilterParams } from "../islands/StickFilter.tsx";
+import { signal, useSignal } from '@preact/signals';
+import StickTable from '../islands/StickTable.tsx';
+import StickFilter, { StickFilterParams } from '../islands/StickFilter.tsx';
 
-import { useEffect, useState } from "preact/hooks";
-import FilterButton from "../components/FilterButton.tsx";
-import { DrumStick } from "../utils/if.ts";
-import RefreshButton from "../islands/RefreshButton.tsx";
-import AboutButton from "../components/AboutButton.tsx";
-import AboutModal from "../components/AboutModal.tsx";
-import LinkGitHubButton from "../components/LinkGitHubButton.tsx";
+import { useEffect, useState } from 'preact/hooks';
+import FilterButton from '../components/FilterButton.tsx';
+import { DrumStick } from '../utils/if.ts';
+import RefreshButton from '../islands/RefreshButton.tsx';
+import AboutButton from '../components/AboutButton.tsx';
+import AboutModal from '../components/AboutModal.tsx';
+import LinkGitHubButton from '../components/LinkGitHubButton.tsx';
 
 export default function Home() {
   // コンテンツの入力値を保持する
@@ -16,13 +16,14 @@ export default function Home() {
   const stickListRaw = useSignal<DrumStick[]>([]);
 
   useEffect(() => {
-    if ("caches" in window) {
-      caches.open("drumstick-json").then((cache) => {
-        cache.match("filterParam").then((res) => {
-          if (res)
+    if ('caches' in window) {
+      caches.open('drumstick-json').then((cache) => {
+        cache.match('filterParam').then((res) => {
+          if (res) {
             res.json().then((json) => {
               filterParam.value = json;
             });
+          }
         });
       });
     }
@@ -30,11 +31,11 @@ export default function Home() {
 
   return (
     <>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <p class={"text-2xl font-bold"}>Find Your Favorite Drum Sticks</p>
+      <div class='p-4 mx-auto max-w-screen-lg'>
+        <p class={'text-2xl font-bold'}>Find Your Favorite Drum Sticks</p>
       </div>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <div class="flex justify-end">
+      <div class='p-4 mx-auto max-w-screen-lg'>
+        <div class='flex justify-end'>
           <FilterButton />
           <AboutButton />
           <RefreshButton
