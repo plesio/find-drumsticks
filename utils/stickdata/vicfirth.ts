@@ -254,8 +254,8 @@ export const sticksVirFirth: ReadonlyArray<DrumStick> = [
     tip_material: "Wood",
     material: "Maple",
     taper: "Medium",
-    length_mm: 13.7,
-    diameter_mm: 39.4,
+    length_mm: 394,
+    diameter_mm: 13.7,
   },
   {
     name: "AMERICAN HERITAGE 5A",
@@ -265,8 +265,8 @@ export const sticksVirFirth: ReadonlyArray<DrumStick> = [
     tip_material: "Wood",
     material: "Maple",
     taper: "Medium",
-    length_mm: 14.4,
-    diameter_mm: 407,
+    length_mm: 407,
+    diameter_mm: 14.4,
   },
   {
     name: "AMERICAN HERITAGE 5B",
@@ -276,8 +276,8 @@ export const sticksVirFirth: ReadonlyArray<DrumStick> = [
     tip_material: "Wood",
     material: "Maple",
     taper: "Medium",
-    length_mm: 15.5,
-    diameter_mm: 407,
+    length_mm: 407,
+    diameter_mm: 15.5,
   },
   // AMERICAN SOUND
   {

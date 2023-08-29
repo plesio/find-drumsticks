@@ -43,7 +43,7 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
         tip_material: "Wood",
         material: "Maple",
         taper: "Unknown",
-        length_mm: 41.3,
+        length_mm: 413,
         diameter_mm: 15.5,
     },
     {
