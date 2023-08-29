@@ -227,8 +227,8 @@
     "tip_material": "Wood",
     "material": "Maple",
     "taper": "Medium",
-    "length_mm": 13.7,
-    "diameter_mm": 39.4
+    "length_mm": 394,
+    "diameter_mm": 13.7
   },
   {
     "name": "AMERICAN HERITAGE 5A",
@@ -238,8 +238,8 @@
     "tip_material": "Wood",
     "material": "Maple",
     "taper": "Medium",
-    "length_mm": 14.4,
-    "diameter_mm": 407
+    "length_mm": 407,
+    "diameter_mm": 14.4
   },
   {
     "name": "AMERICAN HERITAGE 5B",
@@ -249,8 +249,96 @@
     "tip_material": "Wood",
     "material": "Maple",
     "taper": "Medium",
-    "length_mm": 15.5,
-    "diameter_mm": 407
+    "length_mm": 407,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "FREESTYLE 7A",
+    "part_number": "VIC-FS7A",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 432,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "FREESTYLE 5A",
+    "part_number": "VIC-FS5A",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 432,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "AMERICAN JAZZ 1",
+    "part_number": "VIC-AJ1",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 407,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "AMERICAN JAZZ 2",
+    "part_number": "VIC-AJ2",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 407,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "AMERICAN JAZZ 3",
+    "part_number": "VIC-AJ3",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 407,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "AMERICAN JAZZ 4",
+    "part_number": "VIC-AJ4",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 407,
+    "diameter_mm": 13.2
+  },
+  {
+    "name": "AMERICAN JAZZ 5",
+    "part_number": "VIC-AJ5",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 407,
+    "diameter_mm": 12.5
+  },
+  {
+    "name": "AMERICAN JAZZ 6",
+    "part_number": "VIC-AJ6",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 394,
+    "diameter_mm": 14
   },
   {
     "name": "AMERICAN SOUND 5A",
@@ -328,6 +416,17 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 14.3
+  },
+  {
+    "name": "Nate Smith Signature",
+    "part_number": "VIC-SNS",
+    "maker": "VicFirth",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 406,
+    "diameter_mm": 13.6
   },
   {
     "name": "Forward 7A Hickory",
@@ -711,7 +810,7 @@
     "tip_material": "Wood",
     "material": "Maple",
     "taper": "Unknown",
-    "length_mm": 41.3,
+    "length_mm": 413,
     "diameter_mm": 15.5
   },
   {
