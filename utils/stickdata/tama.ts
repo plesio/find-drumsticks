@@ -22,5 +22,16 @@ export const sticksTama: ReadonlyArray<DrumStick> = [
         taper: "Unknown",
         length_mm: 406,
         diameter_mm: 14.0,
+    },
+    {
+        name: "M-JAZZ",
+        part_number: "M-JAZZ",
+        maker: "Tama",
+        tip_shape: "Round",
+        tip_material: "Wood",
+        material: "Maple",
+        taper: "Unknown",
+        length_mm: 406,
+        diameter_mm: 13.0,
     }
 ] as const;

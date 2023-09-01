@@ -237,7 +237,7 @@ export default function StickFilter(props: Props) {
   appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
                     min='370.0'
                     max='430.0'
-                    step='0.1'
+                    step='0.5'
                     onChange={handleChangeLengthMin}
                     onInput={handleInputLengthMin}
                   />
