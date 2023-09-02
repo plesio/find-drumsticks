@@ -16,6 +16,7 @@ export default function Home() {
   const stickListRaw = useSignal<DrumStick[]>([]);
 
   useEffect(() => {
+    //  --
     if ('caches' in window) {
       caches.open('drumstick-json').then((cache) => {
         cache.match('filterParam').then((res) => {
@@ -26,6 +27,11 @@ export default function Home() {
           }
         });
       });
+    }
+    // --
+    const filterParamFromLs = localStorage.getItem('filterParam') && undefined;
+    if (filterParamFromLs) {
+      filterParam.value = filterParamFromLs;
     }
   }, []);
 

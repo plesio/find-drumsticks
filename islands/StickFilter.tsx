@@ -1,7 +1,7 @@
 import type { Signal } from '@preact/signals';
 import { signal, useSignal } from '@preact/signals';
 import { Makers, MaterialTypeArray, TipShapes, TipShapesArray } from '../utils/if.ts';
-import { useCallback } from 'preact/hooks';
+import { useCallback, useEffect } from 'preact/hooks';
 
 export interface StickFilterParams {
   name?: string;
@@ -24,14 +24,21 @@ export default function StickFilter(props: Props) {
   const diameterMax = useSignal(props.filterParam.value.diameter_mm_max ?? 17.0);
   const diameterMin = useSignal(props.filterParam.value.diameter_mm_min ?? 10.0);
 
-  const handleChangeParam = () => {
-    if ('caches' in window) {
-      caches.open('drumstick-json').then((cache) => {
-        cache.put(
-          'filterParam',
-          new Response(JSON.stringify(props.filterParam.value)),
-        );
-      });
+  const handleChangeParam = (isForce = false) => {
+    if (isForce === false) return;
+    // 各 value と select の値を強制的に更新する（ロードセーブ用
+    lengthMax.value = props.filterParam.value.length_mm_max ?? 430.0;
+    lengthMin.value = props.filterParam.value.length_mm_min ?? 370.0;
+    diameterMax.value = props.filterParam.value.diameter_mm_max ?? 17.0;
+    diameterMin.value = props.filterParam.value.diameter_mm_min ?? 10.0;
+    // --
+    const tip_shape_select = document.getElementById('stick_tip_shape');
+    if (tip_shape_select && tip_shape_select instanceof HTMLSelectElement) {
+      tip_shape_select.value = props.filterParam.value.tips[0] ?? '';
+    }
+    const material_select = document.getElementById('stick_material');
+    if (material_select && material_select instanceof HTMLSelectElement) {
+      material_select.value = props.filterParam.value.material ?? '';
     }
   };
 
@@ -138,6 +145,21 @@ export default function StickFilter(props: Props) {
     // 表示を操作する.
   }, []);
 
+  // --
+  const handleOnClickLoad = (e: Event) => {
+    // --
+    const filterParamFromLs = localStorage.getItem('filterParam');
+    if (filterParamFromLs) {
+      props.filterParam.value = JSON.parse(filterParamFromLs);
+      handleChangeParam(true);
+    }
+  };
+
+  const handleOnClickSave = (e: Event) => {
+    // --
+    localStorage.setItem('filterParam', JSON.stringify(props.filterParam.value));
+  };
+
   return (
     <>
       <div id='modal_filter' class='hidden target:block'>
@@ -166,20 +188,15 @@ export default function StickFilter(props: Props) {
                   </a>
                 </button>
               </div>
+
               <div class='pt-4 pb-2 px-4'>
-                <label
-                  for='stick_name'
-                  class='block text-sm font-bold text-slate-900'
-                >
-                  Name Filter
-                </label>
-                <input
-                  id='stick_name'
-                  type='text'
-                  class='w-full border border-slate-300 rounded-md'
-                  onChange={handleOnChangeName}
-                />
+                <span class='align-center'>
+                  <button role='button' class='w-20 border border-slate-300 rounded-md' disabled={localStorage.getItem('filterParam') === null} onClick={handleOnClickLoad}>Load</button>
+                  <span class='mx-2'></span>
+                  <button role='button' class='w-20 border border-slate-300 rounded-md' onClick={handleOnClickSave}>Save</button>
+                </span>
               </div>
+
               <div class='pb-2 px-4'>
                 <label
                   for='stick_tip_shape'
@@ -263,7 +280,7 @@ export default function StickFilter(props: Props) {
   appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
                     min='370.0'
                     max='430.0'
-                    step='0.1'
+                    step='0.5'
                     onChange={handleChangeLengthMax}
                     onInput={handleInputLengthMax}
                   />
@@ -320,6 +337,22 @@ export default function StickFilter(props: Props) {
                     onInput={handleInputdiameterMax}
                   />
                 </span>
+              </div>
+
+              {/* Name Filter (last order) */}
+              <div class='pb-2 px-4'>
+                <label
+                  for='stick_name'
+                  class='block text-sm font-bold text-slate-900'
+                >
+                  Name Filter
+                </label>
+                <input
+                  id='stick_name'
+                  type='text'
+                  class='w-full border border-slate-300 rounded-md'
+                  onChange={handleOnChangeName}
+                />
               </div>
             </div>
           </div>
