@@ -41,25 +41,25 @@ export default function AboutModal() {
                 </p>
                 <p class='text-sm pl-6'>
                   <span>
-                    ドラムスティック自体のメタ情報だけを集めているのと、"""重さについては未記載"""なので、実際には店舗で実物触る方がいいです。<br></br>
+                    """重さや塗装などは未記載"""なので、ここの情報だけを鵜呑みにせず、初見では必ず実物を触りましょう。<br></br>
                   </span>
                   <span>
-                    また、見ての通り、個人の思いつきなで棒の情報は正しいとは限らないうえ、データ数も足りないです（現在：{stickcount}本）。<br></br>
+                    また、個人の思いつきプロダクトのため、情報の精度も完全ではなく、データ数も足りないです（現在：{stickcount}本）。<br></br>
                   </span>
-                  <span>VicFirth SD2 Borelo の代わりになりそうな棒が市場に存在しないか探すついでなので、UI含め全部雑です。ご了承ください。</span>
+                  <span>元々、VicFirth SD2 Borelo の代わりになりそうな棒が存在しないか探すついでです。全てご了承ください。</span>
                 </p>
               </div>
               <div class='p-4'>
                 <p class='text-2xl font-bold'>Q&A</p>
                 <p class='text-sm pl-6'>Q. 俺様のスティックがないんだけど</p>
                 <p class='text-sm pl-6'>
-                  A. 申し訳ない。手でちまちまやっているのだ。GitHub の Issue とかに詳細情報と共に投げてくれるか、PRで足してくれると助かる。
+                  A. 申し訳ない。手でちまちまやっているのだ。GitHub の Issue とかに情報先のURLと共に投げてくれるか、PRで足してくれると助かる。
                 </p>
                 <p class='text-sm mt-4 pl-6'>
                   Q. この●●ってスティックの内容が違う気がする
                 </p>
                 <p class='text-sm pl-6'>
-                  A. これも申し訳ない。意外にびっくりするけど、公式でさえ情報がバラバラだったりするのだ。Issueに正確な内容とそのソースを貼ってくれると助かる
+                  A. これも申し訳ない。意外にびっくりするけど、メーカーによって公式の情報開示が雑だったりするのだ（最悪なケースだと画像を見て判断しろ的な）。Issueに正確な内容とそのソースを貼ってくれると助かる
                 </p>
                 <p class='text-sm mt-4 pl-6'>Q. 何もしてないのに壊れた</p>
                 <p class='text-sm pl-6'>
@@ -73,7 +73,7 @@ export default function AboutModal() {
                 </p>
                 <p class='text-sm mt-4 pl-6'>Q. この機能が壊れてる</p>
                 <p class='text-sm pl-6'>
-                  A. GitHub の Issue とかに詳細情報と共に投げてくれると助かる。 PRで直してくれてもいいよ。
+                  A. GitHub の Issue とかに詳細情報と共に投げてくれると助かる。 PRでもいいよ。
                 </p>
                 <p class='text-sm mt-4 pl-6'>
                   Q. クローリングとかしてデータ集めたらええやん など
