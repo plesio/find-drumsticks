@@ -1,6 +1,7 @@
 import { DrumStick } from "../if.ts";
 
 export const sticksCanopus: ReadonlyArray<DrumStick> = [
+    // -- Signature --
     {
         name: "CP-AI AHITO INAZAWA MODEL",
         part_number: "CP-AI",

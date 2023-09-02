@@ -33,5 +33,16 @@ export const sticksLosCabos: ReadonlyArray<DrumStick> = [
         taper: "Unknown",
         length_mm: 406,
         diameter_mm: 16.1,
+    },
+    {
+        name: "Jive Maple",
+        part_number: "LCDJIVE",
+        maker: "LosCabos",
+        tip_shape: "Round",
+        tip_material: "Wood",
+        material: "Maple",
+        taper: "Unknown",
+        length_mm: 413,
+        diameter_mm: 14.1,
     }
 ] as const;

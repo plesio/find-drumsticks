@@ -836,6 +836,61 @@
     "diameter_mm": 13
   },
   {
+    "name": "Original Series Maple 14mm Diameter",
+    "part_number": "M214-B",
+    "maker": "Tama",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Soul Toul Model",
+    "part_number": "H-SOUL",
+    "maker": "Tama",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 398,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Shishido Kavka Model",
+    "part_number": "H-KVK",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Yukihiro Takahashi Model",
+    "part_number": "H-YT",
+    "maker": "Tama",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Nyango Star Model",
+    "part_number": "M-NYAN",
+    "maker": "Tama",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 15
+  },
+  {
     "name": "Classic Series 7AC",
     "part_number": "7AC",
     "maker": "Pearl",
@@ -1595,6 +1650,17 @@
     "diameter_mm": 14.5
   },
   {
+    "name": "BACK DROP BOMB MASUO Model",
+    "part_number": "H-155MA MASUO ver.2",
+    "maker": "Lerni",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 415,
+    "diameter_mm": 15.5
+  },
+  {
     "name": "UVERworld SHINTARO Model ver.3",
     "part_number": "H-150SH",
     "maker": "Lerni",
@@ -1604,6 +1670,72 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 15
+  },
+  {
+    "name": "Fear, and Loathing in Las Vegas Tomonori Model",
+    "part_number": "H-150RF",
+    "maker": "Lerni",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 416,
+    "diameter_mm": 15
+  },
+  {
+    "name": "04 Limited Sazabys KOHEI Model",
+    "part_number": "H-152KO",
+    "maker": "Lerni",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 408,
+    "diameter_mm": 15.2
+  },
+  {
+    "name": "coldrain Katsuma Model",
+    "part_number": "H-155KT",
+    "maker": "Lerni",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 402,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "FUZZY CONTROL SATOKO Model",
+    "part_number": "S-137SSN",
+    "maker": "Lerni",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "Hi-STANDARD Tsuneoka Model",
+    "part_number": "S-140AT ツネオカ",
+    "maker": "Lerni",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 404,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Watanabe Yutaka Model",
+    "part_number": "H-147YW",
+    "maker": "Lerni",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 14.7
   },
   {
     "name": "bobo Model",
@@ -1648,6 +1780,17 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 16.1
+  },
+  {
+    "name": "Jive Maple",
+    "part_number": "LCDJIVE",
+    "maker": "LosCabos",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 413,
+    "diameter_mm": 14.1
   },
   {
     "name": "Tatsuya Nakamura Signature",
