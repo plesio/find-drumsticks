@@ -803,10 +803,32 @@
     "diameter_mm": 13
   },
   {
-    "name": "H214-B",
+    "name": "Original Series Hickory 13mm Diameter",
+    "part_number": "H213-B",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13
+  },
+  {
+    "name": "Original Series Hickory 13mm Diameter",
+    "part_number": "H213-P",
+    "maker": "Tama",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13
+  },
+  {
+    "name": "Original Series Hickory 14mm Diameter",
     "part_number": "H214-B",
     "maker": "Tama",
-    "tip_shape": "Round",
+    "tip_shape": "Barrel",
     "tip_material": "Wood",
     "material": "Hickory",
     "taper": "Unknown",
@@ -814,7 +836,7 @@
     "diameter_mm": 14
   },
   {
-    "name": "H214-P",
+    "name": "Original Series Hickory 14mm Diameter",
     "part_number": "H214-P",
     "maker": "Tama",
     "tip_shape": "Teardrop",
@@ -823,6 +845,94 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 14
+  },
+  {
+    "name": "Original Series Hickory 14.5mm Diameter",
+    "part_number": "H2145-B",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "Original Series Hickory 14.5mm Diameter",
+    "part_number": "H2145-P",
+    "maker": "Tama",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "Original Series Hickory 15mm Diameter",
+    "part_number": "H215-B",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Original Series Hickory 15mm Diameter",
+    "part_number": "H215-P",
+    "maker": "Tama",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Original Series Hickory 15.5mm Diameter",
+    "part_number": "H2155-B",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "Original Series Hickory 15.5mm Diameter",
+    "part_number": "H2155-T",
+    "maker": "Tama",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "Original Series Hickory 16mm Diameter",
+    "part_number": "H216-B",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Original Series Oak 13mm Diameter",
+    "part_number": "O213-B",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Oak",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13
   },
   {
     "name": "M-JAZZ",
@@ -839,12 +949,23 @@
     "name": "Original Series Maple 14mm Diameter",
     "part_number": "M214-B",
     "maker": "Tama",
-    "tip_shape": "Round",
+    "tip_shape": "Barrel",
     "tip_material": "Wood",
     "material": "Maple",
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 14
+  },
+  {
+    "name": "Original Series Maple 14.5mm Diameter",
+    "part_number": "M2145-B",
+    "maker": "Tama",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.5
   },
   {
     "name": "Soul Toul Model",
