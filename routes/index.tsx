@@ -28,11 +28,6 @@ export default function Home() {
         });
       });
     }
-    // --
-    const filterParamFromLs = localStorage.getItem('filterParam') && undefined;
-    if (filterParamFromLs) {
-      filterParam.value = filterParamFromLs;
-    }
   }, []);
 
   return (
