@@ -1,5 +1,6 @@
 import type { Signal } from '@preact/signals';
 import { signal, useSignal } from '@preact/signals';
+import { IS_BROWSER } from '$fresh/runtime.ts';
 import { Makers, MaterialTypeArray, TipShapes, TipShapesArray } from '../utils/if.ts';
 import { useCallback, useEffect } from 'preact/hooks';
 
@@ -148,7 +149,9 @@ export default function StickFilter(props: Props) {
   // --
   const handleOnClickLoad = (e: Event) => {
     // --
-    const filterParamFromLs = localStorage.getItem('filterParam');
+    if (!IS_BROWSER) return;
+    //
+    const filterParamFromLs = localStorage?.getItem('filterParam');
     if (filterParamFromLs) {
       props.filterParam.value = JSON.parse(filterParamFromLs);
       handleChangeParam(true);
@@ -157,7 +160,9 @@ export default function StickFilter(props: Props) {
 
   const handleOnClickSave = (e: Event) => {
     // --
-    localStorage.setItem('filterParam', JSON.stringify(props.filterParam.value));
+    if (!IS_BROWSER) return;
+    //
+    localStorage?.setItem('filterParam', JSON.stringify(props.filterParam.value));
   };
 
   return (
@@ -191,7 +196,7 @@ export default function StickFilter(props: Props) {
 
               <div class='pt-4 pb-2 px-4'>
                 <span class='align-center'>
-                  <button role='button' class='w-20 border border-slate-300 rounded-md' disabled={localStorage.getItem('filterParam') === null} onClick={handleOnClickLoad}>Load</button>
+                  <button role='button' class='w-20 border border-slate-300 rounded-md' onClick={handleOnClickLoad}>Load</button>
                   <span class='mx-2'></span>
                   <button role='button' class='w-20 border border-slate-300 rounded-md' onClick={handleOnClickSave}>Save</button>
                 </span>
