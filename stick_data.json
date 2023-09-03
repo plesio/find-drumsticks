@@ -1485,6 +1485,72 @@
     "diameter_mm": 14.2
   },
   {
+    "name": "5A Natural Nylon",
+    "part_number": "LAZLZ5AN",
+    "maker": "Zildjian",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.2
+  },
+  {
+    "name": "5B Natural",
+    "part_number": "LAZLZ5B",
+    "maker": "Zildjian",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.2
+  },
+  {
+    "name": "5B Natural Nylon",
+    "part_number": "LAZLZ5BN",
+    "maker": "Zildjian",
+    "tip_shape": "Teardrop",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.2
+  },
+  {
+    "name": "7A Natural",
+    "part_number": "LAZLZ7A",
+    "maker": "Zildjian",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13.2
+  },
+  {
+    "name": "7A Natural Nylon",
+    "part_number": "LAZLZ7AN",
+    "maker": "Zildjian",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13.2
+  },
+  {
+    "name": "5B Natural",
+    "part_number": "LAZLZ2B",
+    "maker": "Zildjian",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.9
+  },
+  {
     "name": "4A",
     "part_number": "Hickory 204R",
     "maker": "RegalTip",
@@ -2156,6 +2222,50 @@
     "diameter_mm": 14.7
   },
   {
+    "name": "Maple Jazz",
+    "part_number": "LCDJAZZ",
+    "maker": "LosCabos",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Medium",
+    "length_mm": 413,
+    "diameter_mm": 14.6
+  },
+  {
+    "name": "Maple Jive",
+    "part_number": "LCDJIVE",
+    "maker": "LosCabos",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 413,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Maple Swing",
+    "part_number": "LCDSWING",
+    "maker": "LosCabos",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 414,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Maple Rock",
+    "part_number": "LCDROCK",
+    "maker": "LosCabos",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 422,
+    "diameter_mm": 15.9
+  },
+  {
     "name": "Maple Concert",
     "part_number": "LCDCON",
     "maker": "LosCabos",
@@ -2167,15 +2277,48 @@
     "diameter_mm": 16.1
   },
   {
-    "name": "Jive Maple",
-    "part_number": "LCDJIVE",
+    "name": "Maple Power",
+    "part_number": "LCDPM1",
     "maker": "LosCabos",
-    "tip_shape": "Round",
+    "tip_shape": "Oval",
     "tip_material": "Wood",
     "material": "Maple",
-    "taper": "Unknown",
+    "taper": "Medium",
     "length_mm": 413,
-    "diameter_mm": 14.1
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "Maple Pipe Band",
+    "part_number": "LCDPM1",
+    "maker": "LosCabos",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 406,
+    "diameter_mm": 20
+  },
+  {
+    "name": "GENERATION NEXT Kids Sticks gen1",
+    "part_number": "LCDGEN1",
+    "maker": "LosCabos",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 337,
+    "diameter_mm": 12.7
+  },
+  {
+    "name": "GENERATION NEXT Kids Sticks gen2",
+    "part_number": "LCDGEN2",
+    "maker": "LosCabos",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 362,
+    "diameter_mm": 12.7
   },
   {
     "name": "Tatsuya Nakamura Signature",
