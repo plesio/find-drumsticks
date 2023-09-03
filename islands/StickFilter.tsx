@@ -3,6 +3,8 @@ import { signal, useSignal } from '@preact/signals';
 import { IS_BROWSER } from '$fresh/runtime.ts';
 import { Makers, MaterialTypeArray, TipShapes, TipShapesArray } from '../utils/if.ts';
 import { useCallback, useEffect } from 'preact/hooks';
+import { CloseIcon } from '../components/svg/CloseIcon.tsx';
+import { Toast } from '../components/Toast.tsx';
 
 export interface StickFilterParams {
   name?: string;
@@ -19,11 +21,25 @@ export interface Props {
   filterParam: Signal<StickFilterParams>;
 }
 
+// フィルターの仕様に変更を入れるたびに数字を変えること.
+const CURRENT_FILTER_PARAM_VERSION = 1;
+
 export default function StickFilter(props: Props) {
   const lengthMax = useSignal(props.filterParam.value.length_mm_max ?? 430.0);
   const lengthMin = useSignal(props.filterParam.value.length_mm_min ?? 370.0);
   const diameterMax = useSignal(props.filterParam.value.diameter_mm_max ?? 17.0);
   const diameterMin = useSignal(props.filterParam.value.diameter_mm_min ?? 10.0);
+  //
+  const toastMessage = useSignal('');
+  const isToastVisible = useSignal(false);
+
+  const showToast = useCallback((message: string) => {
+    toastMessage.value = message;
+    isToastVisible.value = true;
+    setTimeout(() => {
+      isToastVisible.value = false;
+    }, 3000);
+  }, []);
 
   const handleChangeParam = (isForce = false) => {
     if (isForce === false) return;
@@ -153,8 +169,14 @@ export default function StickFilter(props: Props) {
     //
     const filterParamFromLs = localStorage?.getItem('filterParam');
     if (filterParamFromLs) {
-      props.filterParam.value = JSON.parse(filterParamFromLs);
+      const loadData: StickFilterParams & { version: number } = JSON.parse(filterParamFromLs);
+      const { version, ...filterParam } = loadData;
+      if (loadData.version !== CURRENT_FILTER_PARAM_VERSION) {
+        return;
+      }
+      props.filterParam.value = filterParam;
       handleChangeParam(true);
+      showToast('Loaded');
     }
   };
 
@@ -162,8 +184,17 @@ export default function StickFilter(props: Props) {
     // --
     if (!IS_BROWSER) return;
     //
-    localStorage?.setItem('filterParam', JSON.stringify(props.filterParam.value));
+    const saveData = {
+      version: CURRENT_FILTER_PARAM_VERSION,
+      ...props.filterParam.value,
+    };
+    localStorage?.setItem('filterParam', JSON.stringify(saveData));
+    showToast('Saved');
   };
+
+  const onClickCloseToast = useCallback(() => {
+    isToastVisible.value = false;
+  }, []);
 
   return (
     <>
@@ -176,30 +207,18 @@ export default function StickFilter(props: Props) {
               <div class='absolute top-2 right-1/2'>
                 <button type='button' class='' aria-label='Close'>
                   <a href='#' class='block w-full h-full cursor-default'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      class='h-6 w-6'
-                      fill='none'
-                      viewBox='0 0 24 24'
-                      stroke='currentColor'
-                    >
-                      <path
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
-                        d='M6 18L18 6M6 6l12 12'
-                      />
-                    </svg>
+                    <CloseIcon />
                   </a>
                 </button>
               </div>
 
+              {/* Save Load */}
               <div class='pt-4 pb-2 px-4'>
-                <span class='align-center'>
-                  <button role='button' class='w-20 border border-slate-300 rounded-md' onClick={handleOnClickLoad}>Load</button>
-                  <span class='mx-2'></span>
-                  <button role='button' class='w-20 border border-slate-300 rounded-md' onClick={handleOnClickSave}>Save</button>
-                </span>
+                <div class='flex justify-between'>
+                  <button role='button' class='w-20 bg-blue-500 text-white border border-blue-500 rounded-md me-auto' onClick={handleOnClickLoad}>Load</button>
+
+                  <button role='button' class='w-20 bg-red-500 text-white border border-blue-500 rounded-md ms-auto' onClick={handleOnClickSave}>Save</button>
+                </div>
               </div>
 
               <div class='pb-2 px-4'>
@@ -362,6 +381,7 @@ export default function StickFilter(props: Props) {
             </div>
           </div>
         </div>
+        {isToastVisible.value ? <Toast message={toastMessage.value} clickClose={onClickCloseToast} /> : null}
       </div>
     </>
   );

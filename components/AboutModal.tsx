@@ -1,4 +1,5 @@
 import { AllSticks } from '../utils/if.ts';
+import { CloseIcon } from './svg/CloseIcon.tsx';
 
 export default function AboutModal() {
   const stickcount = AllSticks.length;
@@ -14,20 +15,7 @@ export default function AboutModal() {
               <div class='absolute top-2 right-1/2'>
                 <button type='button' class='' aria-label='Close'>
                   <a href='#' class='block w-full h-full cursor-default'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      class='h-6 w-6'
-                      fill='none'
-                      viewBox='0 0 24 24'
-                      stroke='currentColor'
-                    >
-                      <path
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
-                        d='M6 18L18 6M6 6l12 12'
-                      />
-                    </svg>
+                    <CloseIcon />
                   </a>
                 </button>
               </div>
@@ -53,18 +41,29 @@ export default function AboutModal() {
                 <p class='text-2xl font-bold'>Q&A</p>
                 <p class='text-sm pl-6'>Q. 俺様のスティックがないんだけど</p>
                 <p class='text-sm pl-6'>
-                  A. 申し訳ない。手でちまちまやっているのだ。GitHub の Issue とかに情報先のURLと共に投げてくれるか、PRで足してくれると助かる。
+                  A. 申し訳ない。手でちまちまやっているのだ。GitHub の Issue に正確な情報があるURLと共に投げる or PRしてくれると助かる。
                 </p>
                 <p class='text-sm mt-4 pl-6'>
                   Q. この●●ってスティックの内容が違う気がする
                 </p>
                 <p class='text-sm pl-6'>
-                  A. これも申し訳ない。意外にびっくりするけど、メーカーによって公式の情報開示が雑だったりするのだ（最悪なケースだと画像を見て判断しろ的な）。Issueに正確な内容とそのソースを貼ってくれると助かる
+                  <span>
+                    A. これも申し訳ない。意外にびっくりするけど、メーカーごとに公開情報がバラバラなのだ（最悪、画像だけおいてある）。<br></br>
+                  </span>
+                  <span class='ml-5'>
+                    Issueに正確な内容とそのソースを貼ってくれると助かる。 PRでもいいよ。<br></br>
+                  </span>
+                  <span class='ml-5'>
+                    あと、Tip Shape は、メーカー毎に呼称の基準が違うため、なるべくVicFirth 基準になるようにしている。<br></br>
+                  </span>
+                  <span class='ml-5'>
+                    （例えば、「Ball ⇒ Round or Barrel」「Teardrop ⇒ Oval」。）
+                  </span>
                 </p>
                 <p class='text-sm mt-4 pl-6'>Q. 何もしてないのに壊れた</p>
                 <p class='text-sm pl-6'>
                   <span>
-                    A. ブラウザにキャッシュを取る作りになってて、こちらで機能やデータ構造を改修したりするとバグるかも。<br></br>
+                    A. ブラウザにキャッシュを置く作りになってて、こちらで機能やデータ構造を改修したりするとバグるかも。<br></br>
                   </span>
                   <span class='ml-5'>
                     画面内のリフレッシュボタンでキャッシュを消す処理が走る（はず）。<br></br>
