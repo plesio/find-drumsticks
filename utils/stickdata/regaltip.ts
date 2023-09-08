@@ -1,6 +1,8 @@
+import { inchesToMillimeters } from "../StickUtils.ts";
 import { DrumStick } from "../if.ts";
 
 export const sticksRegalTip: ReadonlyArray<DrumStick> = [
+    // HICKORY
     {
         name: "4A",
         part_number: "Hickory 204R",
@@ -20,8 +22,41 @@ export const sticksRegalTip: ReadonlyArray<DrumStick> = [
         tip_material: "Wood",
         material: "Hickory",
         taper: "Unknown",
-        length_mm: 406,
-        diameter_mm: 14.7,
+        length_mm: inchesToMillimeters(16),//406,
+        diameter_mm: inchesToMillimeters(0.580)//14.7,
+    },
+    {
+        name: "5AX",
+        part_number: "Hickory 205RX",
+        maker: "RegalTip",
+        tip_shape: "Acorn",
+        tip_material: "Wood",
+        material: "Hickory",
+        taper: "Short",
+        length_mm: inchesToMillimeters(16.25),
+        diameter_mm: inchesToMillimeters(0.560),
+    },
+    {
+        name: "8A",
+        part_number: "Hickory 208R",
+        maker: "RegalTip",
+        tip_shape: "Barrel",
+        tip_material: "Wood",
+        material: "Hickory",
+        taper: "Medium",
+        length_mm: inchesToMillimeters(16),
+        diameter_mm: inchesToMillimeters(0.555),
+    },
+    {
+        name: "9A",
+        part_number: "Hickory 209R",
+        maker: "RegalTip",
+        tip_shape: "Barrel",
+        tip_material: "Wood",
+        material: "Hickory",
+        taper: "Short",
+        length_mm: inchesToMillimeters(16),
+        diameter_mm: inchesToMillimeters(0.580),
     },
     {
         name: "2B",
@@ -44,5 +79,51 @@ export const sticksRegalTip: ReadonlyArray<DrumStick> = [
         taper: "Unknown",
         length_mm: 406,
         diameter_mm: 15.2,
+    },
+    // OTHER HICKORY
+    {
+        name: "Rock",
+        part_number: "Hickory 213R",
+        maker: "RegalTip",
+        tip_shape: "Oval",
+        tip_material: "Wood",
+        material: "Hickory",
+        taper: "Short",
+        length_mm: inchesToMillimeters(16),
+        diameter_mm: inchesToMillimeters(0.555),
+    },
+    {
+        name: "Combo Nylon Tip",
+        part_number: "Hickory 110NT",
+        maker: "RegalTip",
+        tip_shape: "Teardrop",
+        tip_material: "Nylon",
+        material: "Hickory",
+        taper: "Long",
+        length_mm: inchesToMillimeters(16),
+        diameter_mm: inchesToMillimeters(0.475),
+    },
+    // Performer Series
+    {
+        name: "Performers Series Jeff Porcaro",
+        part_number: "Hickory 208R-JP",
+        maker: "RegalTip",
+        tip_shape: "Barrel",
+        tip_material: "Wood",
+        material: "Hickory",
+        taper: "Long",
+        length_mm: inchesToMillimeters(16),
+        diameter_mm: inchesToMillimeters(0.555),
+    },
+    {
+        name: "Performers Series Jason Sutter",
+        part_number: "Hickory PF-JS",
+        maker: "RegalTip",
+        tip_shape: "Barrel",
+        tip_material: "Wood",
+        material: "Hickory",
+        taper: "Long",
+        length_mm: inchesToMillimeters(16.375),
+        diameter_mm: inchesToMillimeters(0.590),
     }
 ] as const;

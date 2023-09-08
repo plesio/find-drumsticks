@@ -20,3 +20,10 @@ export function fetchStickList(stickListRaw: Signal<DrumStick[]>, isRefresh = fa
             }
         });
 };
+
+/**  */
+export function inchesToMillimeters(inches: number): number {
+    const millimeters = inches * 25.4;
+    // xx.x mm 表記になるように小数点第一位で四捨五入する。
+    return Math.round(millimeters * 10) / 10;
+}

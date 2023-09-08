@@ -166,6 +166,18 @@ export const sticksProMark: ReadonlyArray<DrumStick> = [
         length_mm: 400.1,
         diameter_mm: 16.1,
     },
+    // -- Signature Series --
+    {
+        name: "Mike Portnoy Hickory",
+        part_number: "TX420N",
+        maker: "ProMark",
+        tip_shape: "Oval",
+        tip_material: "Nylon",
+        material: "Hickory",
+        taper: "Medium",
+        length_mm: 409.6,
+        diameter_mm: 13.5,
+    },
     {
         name: "BILL BRUFORD Maple",
         part_number: "SD4W",
@@ -199,6 +211,18 @@ export const sticksProMark: ReadonlyArray<DrumStick> = [
         length_mm: 425.5,
         diameter_mm: 15.1,
     },
+    {
+        name: "Rudy Garcia Hickory",
+        part_number: "TXDCRGW",
+        maker: "ProMark",
+        tip_shape: "Unknown",
+        tip_material: "Wood",
+        material: "Hickory",
+        taper: "Long",
+        length_mm: 429.3,
+        diameter_mm: 17.4,
+    },
+    // -- Other --
     {
         name: "Concert One Orchestra",
         part_number: "TXC1W",

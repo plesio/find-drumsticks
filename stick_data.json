@@ -44,6 +44,28 @@
     "diameter_mm": 14.4
   },
   {
+    "name": "American Classic EXTREME 5A",
+    "part_number": "VIC-X5A",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 419,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "American Classic EXTREME 5A NYLON",
+    "part_number": "VIC-X5AN",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 419,
+    "diameter_mm": 14.4
+  },
+  {
     "name": "American Classic 5B",
     "part_number": "VIC-5B",
     "maker": "VicFirth",
@@ -77,6 +99,17 @@
     "diameter_mm": 15.1
   },
   {
+    "name": "American Classic EXTREME 5B NYLON",
+    "part_number": "VIC-X5BN",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 419,
+    "diameter_mm": 15.1
+  },
+  {
     "name": "American Classic 55A",
     "part_number": "VIC-55A",
     "maker": "VicFirth",
@@ -85,6 +118,17 @@
     "material": "Hickory",
     "taper": "Medium",
     "length_mm": 407,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "American Classic EXTREME 55A",
+    "part_number": "VIC-X55A",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 419,
     "diameter_mm": 14.7
   },
   {
@@ -165,6 +209,61 @@
     "diameter_mm": 16.1
   },
   {
+    "name": "American Classic NE1",
+    "part_number": "VIC-NE1",
+    "maker": "VicFirth",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "American Classic HD4",
+    "part_number": "VIC-HD4",
+    "maker": "VicFirth",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 403,
+    "diameter_mm": 13.5
+  },
+  {
+    "name": "American Classic HD9",
+    "part_number": "VIC-HD9",
+    "maker": "VicFirth",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 413,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "American Classic KIDSTICKS(BLUE)",
+    "part_number": "VIC-KIDS",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 330,
+    "diameter_mm": 13.2
+  },
+  {
+    "name": "American Classic KIDSTICKS PINK",
+    "part_number": "VIC-KIDSPINK",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 330,
+    "diameter_mm": 13.2
+  },
+  {
     "name": "AMERICAN CUSTOM SD1 GENERAL",
     "part_number": "VIC-SD1",
     "maker": "VicFirth",
@@ -174,6 +273,17 @@
     "taper": "Short",
     "length_mm": 417,
     "diameter_mm": 16.1
+  },
+  {
+    "name": "AMERICAN CUSTOM SD1 JR.",
+    "part_number": "VIC-SD1JR",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 395,
+    "diameter_mm": 15.6
   },
   {
     "name": "AMERICAN CUSTOM SD2 BOLERO",
@@ -198,6 +308,17 @@
     "diameter_mm": 13.8
   },
   {
+    "name": "AMERICAN CUSTOM SD5 ECHO",
+    "part_number": "VIC-SD5",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 400,
+    "diameter_mm": 17
+  },
+  {
     "name": "AMERICAN CUSTOM SD9 DRIVER",
     "part_number": "VIC-SD9",
     "maker": "VicFirth",
@@ -218,6 +339,17 @@
     "taper": "Medium",
     "length_mm": 409,
     "diameter_mm": 15.5
+  },
+  {
+    "name": "AMERICAN CUSTOM SD12 SWIZZLE",
+    "part_number": "VIC-SD12",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 422,
+    "diameter_mm": 16.1
   },
   {
     "name": "AMERICAN HERITAGE 7A",
@@ -374,6 +506,17 @@
     "diameter_mm": 13.7
   },
   {
+    "name": "AMERICAN SOUND 8D",
+    "part_number": "VIC-AS8D",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 406,
+    "diameter_mm": 13.7
+  },
+  {
     "name": "Jojo Mayer Signature",
     "part_number": "VIC-SJM",
     "maker": "VicFirth",
@@ -493,6 +636,72 @@
     "taper": "Unknown",
     "length_mm": 419,
     "diameter_mm": 13.3
+  },
+  {
+    "name": "Keith Carlock Signature",
+    "part_number": "VIC-SKC",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Questlove Signature",
+    "part_number": "VIC-SAT2",
+    "maker": "VicFirth",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 431,
+    "diameter_mm": 13.2
+  },
+  {
+    "name": "Tommy Igoe Signature",
+    "part_number": "VIC-STI",
+    "maker": "VicFirth",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 409,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Tony Royster Jr. Signature",
+    "part_number": "VIC-STR",
+    "maker": "VicFirth",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 409,
+    "diameter_mm": 13.9
+  },
+  {
+    "name": "Steve Smith Signature",
+    "part_number": "VIC-SSS",
+    "maker": "VicFirth",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 406,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Stanton Moore Signature",
+    "part_number": "VIC-SSM",
+    "maker": "VicFirth",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 413,
+    "diameter_mm": 13.9
   },
   {
     "name": "Forward 7A Hickory",
@@ -660,6 +869,17 @@
     "diameter_mm": 16.1
   },
   {
+    "name": "Mike Portnoy Hickory",
+    "part_number": "TX420N",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 409.6,
+    "diameter_mm": 13.5
+  },
+  {
     "name": "BILL BRUFORD Maple",
     "part_number": "SD4W",
     "maker": "ProMark",
@@ -691,6 +911,17 @@
     "taper": "Medium",
     "length_mm": 425.5,
     "diameter_mm": 15.1
+  },
+  {
+    "name": "Rudy Garcia Hickory",
+    "part_number": "TXDCRGW",
+    "maker": "ProMark",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 429.3,
+    "diameter_mm": 17.4
   },
   {
     "name": "Concert One Orchestra",
@@ -1569,7 +1800,40 @@
     "tip_material": "Wood",
     "material": "Hickory",
     "taper": "Unknown",
-    "length_mm": 406,
+    "length_mm": 406.4,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "5AX",
+    "part_number": "Hickory 205RX",
+    "maker": "RegalTip",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 412.8,
+    "diameter_mm": 14.2
+  },
+  {
+    "name": "8A",
+    "part_number": "Hickory 208R",
+    "maker": "RegalTip",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 406.4,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "9A",
+    "part_number": "Hickory 209R",
+    "maker": "RegalTip",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 406.4,
     "diameter_mm": 14.7
   },
   {
@@ -1593,6 +1857,50 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 15.2
+  },
+  {
+    "name": "Rock",
+    "part_number": "Hickory 213R",
+    "maker": "RegalTip",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 406.4,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Combo Nylon Tip",
+    "part_number": "Hickory 110NT",
+    "maker": "RegalTip",
+    "tip_shape": "Teardrop",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 12.1
+  },
+  {
+    "name": "Performers Series Jeff Porcaro",
+    "part_number": "Hickory 208R-JP",
+    "maker": "RegalTip",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Performers Series Jason Sutter",
+    "part_number": "Hickory PF-JS",
+    "maker": "RegalTip",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 415.9,
+    "diameter_mm": 15
   },
   {
     "name": "5A",
