@@ -1601,13 +1601,35 @@
     "tip_shape": "Round",
     "tip_material": "Wood",
     "material": "Hickory",
-    "taper": "Unknown",
+    "taper": "Medium",
     "length_mm": 406,
     "diameter_mm": 14.7
   },
   {
-    "name": "SD1 Concert General",
-    "part_number": "SD1",
+    "name": "Sugar Maple Fusion",
+    "part_number": "VSMFW",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Medium",
+    "length_mm": 406,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "Sugar Maple Fusion Nylon",
+    "part_number": "VSMFN",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Nylon",
+    "material": "Maple",
+    "taper": "Medium",
+    "length_mm": 406,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "SugarMaple SD1 Concert General",
+    "part_number": "VSMCW",
     "maker": "Vater",
     "tip_shape": "Barrel",
     "tip_material": "Wood",
@@ -1615,6 +1637,28 @@
     "taper": "Unknown",
     "length_mm": 419,
     "diameter_mm": 16
+  },
+  {
+    "name": "SD9",
+    "part_number": "VHSD9W",
+    "maker": "Vater",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 412.8,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "SugarMaple SD9",
+    "part_number": "VSMSD9W",
+    "maker": "Vater",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 412.8,
+    "diameter_mm": 15.5
   },
   {
     "name": "Blazer",
@@ -1650,7 +1694,7 @@
     "diameter_mm": 16
   },
   {
-    "name": "Piccolo",
+    "name": "SugarMaple Piccolo",
     "part_number": "VSMPW",
     "maker": "Vater",
     "tip_shape": "Round",
@@ -1659,6 +1703,17 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 16
+  },
+  {
+    "name": "SugarMaple Pianissimo",
+    "part_number": "VSMPIANW",
+    "maker": "Vater",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Short",
+    "length_mm": 406.4,
+    "diameter_mm": 16.1
   },
   {
     "name": "SugarMaple 7A",
@@ -1672,15 +1727,26 @@
     "diameter_mm": 13.7
   },
   {
+    "name": "Super Jazz",
+    "part_number": "VHSJW",
+    "maker": "Vater",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 412.8,
+    "diameter_mm": 14.1
+  },
+  {
     "name": "SugarMaple Super Jazz",
     "part_number": "VSMSJW",
     "maker": "Vater",
     "tip_shape": "Oval",
     "tip_material": "Wood",
     "material": "Maple",
-    "taper": "Unknown",
-    "length_mm": 413,
-    "diameter_mm": 14
+    "taper": "Long",
+    "length_mm": 412.8,
+    "diameter_mm": 14.1
   },
   {
     "name": "Sweet Ride",
@@ -1692,6 +1758,17 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 13.6
+  },
+  {
+    "name": "Gospel Series 5A",
+    "part_number": "VGS5AW",
+    "maker": "Vater",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 419.1,
+    "diameter_mm": 14.1
   },
   {
     "name": "Chad Smith's Funk Blaster",
@@ -1945,6 +2022,28 @@
     "taper": "Short",
     "length_mm": 406.4,
     "diameter_mm": 16.1
+  },
+  {
+    "name": "Eguchi Nobuo's Wild Cat",
+    "part_number": "VHWCATW",
+    "maker": "Vater",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406.4,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Junior Model",
+    "part_number": "VMJRW",
+    "maker": "Vater",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 330.2,
+    "diameter_mm": 13.2
   },
   {
     "name": "5A Natural",
