@@ -2913,5 +2913,93 @@
     "taper": "Unknown",
     "length_mm": 400,
     "diameter_mm": 16
+  },
+  {
+    "name": "Tatsuya Ishikawa Model",
+    "part_number": "M-165-TTY",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 390,
+    "diameter_mm": 16.5
+  },
+  {
+    "name": "Tatsuya Ishikawa Model",
+    "part_number": "M-175-TTY",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 390,
+    "diameter_mm": 17.5
+  },
+  {
+    "name": "Shigeru Mori Model",
+    "part_number": "H-145SM",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 408,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "Hidehiko Kozai",
+    "part_number": "M-165HK",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Unknown",
+    "length_mm": 385,
+    "diameter_mm": 16.5
+  },
+  {
+    "name": "Yoshitaka Kobayashi Model",
+    "part_number": "H-16YK",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 385,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Yoshitaka Kobayashi Model",
+    "part_number": "GS-16YK",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "GoldenCitrine",
+    "taper": "Long",
+    "length_mm": 385,
+    "diameter_mm": 16
+  },
+  {
+    "name": "7A",
+    "part_number": "7A",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Unknown",
+    "diameter_mm": 14,
+    "length_mm": 399
+  },
+  {
+    "name": "Lars Ulrich Signature",
+    "part_number": "LU-SGL",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Unknown",
+    "diameter_mm": 15,
+    "length_mm": 406
   }
 ]

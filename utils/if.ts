@@ -1,10 +1,11 @@
+import { sticksAhead } from './stickdata/ahead.ts';
 import { sticksCanopus } from './stickdata/canopus.ts';
 import { sticksGretsch } from './stickdata/gretsch.ts';
 import { sticksLerni } from './stickdata/lerni.ts';
 import { sticksLosCabos } from './stickdata/loscabos.ts';
 import { sticksMeinl } from './stickdata/meinl.ts';
 import { sticksPearl } from './stickdata/pearl.ts';
-import { sticksPlaywood } from "./stickdata/playwood.ts";
+import { sticksPlaywood } from './stickdata/playwood.ts';
 import { sticksProMark } from './stickdata/promark.ts';
 import { sticksRegalTip } from './stickdata/regaltip.ts';
 import { sticksTama } from './stickdata/tama.ts';
@@ -29,7 +30,8 @@ export const AllSticks = [
   ...sticksLerni,
   ...sticksLosCabos,
   ...sticksGretsch,
-  ...sticksPlaywood
+  ...sticksPlaywood,
+  ...sticksAhead,
 ] as const;
 
 export interface DrumStick {
@@ -72,9 +74,9 @@ export const TipShapes = {
   Acorn: 'Acorn',
   Oval: 'Oval',
   Teardrop: 'Teardrop',
-  Triangle: 'Triangle',
-  Reverse_Teardrop: 'Reverse_Teardrop',
-  Reverse_Triangle: 'Reverse_Triangle',
+  //Triangle: 'Triangle',
+  //Reverse_Teardrop: 'Reverse_Teardrop',
+  //Reverse_Triangle: 'Reverse_Triangle',
   None: 'None',
   Unknown: 'Unknown',
 } as const;
@@ -105,6 +107,8 @@ export const MaterialType = {
   Maple: 'Maple',
   Hickory: 'Hickory',
   Oak: 'Oak',
+  GoldenCitrine: 'GoldenCitrine',
+  Metal: 'Metal',
 };
 
 export type MaterialType = typeof MaterialType[keyof typeof MaterialType];
