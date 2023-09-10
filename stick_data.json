@@ -2915,6 +2915,50 @@
     "diameter_mm": 16
   },
   {
+    "name": "Classic Series NO.2",
+    "part_number": "Classic Series NO.2",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "GoldenCitrine",
+    "taper": "Long",
+    "length_mm": 390,
+    "diameter_mm": 17
+  },
+  {
+    "name": "Classic Series NO.5",
+    "part_number": "Classic Series NO.5",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "GoldenCitrine",
+    "taper": "Medium",
+    "length_mm": 380,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "Classic Series 20GS",
+    "part_number": "20GS",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "GoldenCitrine",
+    "taper": "Long",
+    "length_mm": 380,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Concert Series NO.1",
+    "part_number": "Concert Series NO.1",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 370,
+    "diameter_mm": 16
+  },
+  {
     "name": "Tatsuya Ishikawa Model",
     "part_number": "M-165-TTY",
     "maker": "PLAYWOOD",
@@ -2981,15 +3025,103 @@
     "diameter_mm": 16
   },
   {
+    "name": "Training Stick AA",
+    "part_number": "TR-AA",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Oak",
+    "taper": "Unknown",
+    "length_mm": 423,
+    "diameter_mm": 19
+  },
+  {
+    "name": "Training Stick BB",
+    "part_number": "TR-BB",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Oak",
+    "taper": "Unknown",
+    "length_mm": 415,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Training Stick AM",
+    "part_number": "TR-AM",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Round",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 12
+  },
+  {
+    "name": "5A",
+    "part_number": "5A",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Medium",
+    "diameter_mm": 13.7,
+    "length_mm": 406.4
+  },
+  {
+    "name": "FATBEAT 5A",
+    "part_number": "FB-5A",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Medium",
+    "diameter_mm": 13.7,
+    "length_mm": 412.8
+  },
+  {
     "name": "7A",
     "part_number": "7A",
     "maker": "Ahead",
     "tip_shape": "Unknown",
     "tip_material": "Nylon",
     "material": "Metal",
-    "taper": "Unknown",
-    "diameter_mm": 14,
-    "length_mm": 399
+    "taper": "Medium",
+    "diameter_mm": 13.7,
+    "length_mm": 398.5
+  },
+  {
+    "name": "2B",
+    "part_number": "2B",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Long",
+    "diameter_mm": 15.1,
+    "length_mm": 406.4
+  },
+  {
+    "name": "5B",
+    "part_number": "5B",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Long",
+    "diameter_mm": 15.1,
+    "length_mm": 406.4
+  },
+  {
+    "name": "5B Rock",
+    "part_number": "5BR",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Short",
+    "diameter_mm": 15.1,
+    "length_mm": 406.4
   },
   {
     "name": "Lars Ulrich Signature",
@@ -2998,8 +3130,19 @@
     "tip_shape": "Unknown",
     "tip_material": "Nylon",
     "material": "Metal",
-    "taper": "Unknown",
-    "diameter_mm": 15,
-    "length_mm": 406
+    "taper": "Long",
+    "diameter_mm": 15.1,
+    "length_mm": 412.8
+  },
+  {
+    "name": "Frank Zummo Signature",
+    "part_number": "FZ",
+    "maker": "Ahead",
+    "tip_shape": "Unknown",
+    "tip_material": "Nylon",
+    "material": "Metal",
+    "taper": "Long",
+    "diameter_mm": 15.1,
+    "length_mm": 422.4
   }
 ]
