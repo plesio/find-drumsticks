@@ -36,7 +36,7 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
     diameter_mm: 14.7,
   },
   {
-    name: 'SugarMaple SD1 Concert General',
+    name: 'Sugar Maple SD1 Concert General',
     part_number: 'VSMCW',
     maker: 'Vater',
     tip_shape: 'Barrel',
@@ -58,7 +58,7 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
     diameter_mm: inchesToMillimeters(0.610),
   },
   {
-    name: 'SugarMaple SD9',
+    name: 'Sugar Maple SD9',
     part_number: 'VSMSD9W',
     maker: 'Vater',
     tip_shape: 'Barrel',
@@ -102,7 +102,7 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
     diameter_mm: 16.0,
   },
   {
-    name: 'SugarMaple Piccolo',
+    name: 'Sugar Maple Piccolo',
     part_number: 'VSMPW',
     maker: 'Vater',
     tip_shape: 'Round',
@@ -113,7 +113,7 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
     diameter_mm: 16.0,
   },
   {
-    name: 'SugarMaple Pianissimo',
+    name: 'Sugar Maple Pianissimo',
     part_number: 'VSMPIANW',
     maker: 'Vater',
     tip_shape: 'Round',
@@ -124,7 +124,7 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
     diameter_mm: inchesToMillimeters(0.635),
   },
   {
-    name: 'SugarMaple 7A',
+    name: 'Sugar Maple 7A',
     part_number: 'SM-7A',
     maker: 'Vater',
     tip_shape: 'Round',
@@ -146,7 +146,7 @@ export const sticksVater: ReadonlyArray<DrumStick> = [
     diameter_mm: inchesToMillimeters(0.555),
   },
   {
-    name: 'SugarMaple Super Jazz',
+    name: 'Sugar Maple Super Jazz',
     part_number: 'VSMSJW',
     maker: 'Vater',
     tip_shape: 'Oval',

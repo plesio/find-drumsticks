@@ -704,61 +704,6 @@
     "diameter_mm": 13.9
   },
   {
-    "name": "Forward 7A Hickory",
-    "part_number": "TX7AW",
-    "maker": "ProMark",
-    "tip_shape": "Oval",
-    "tip_material": "Wood",
-    "material": "Hickory",
-    "taper": "Short",
-    "length_mm": 390.5,
-    "diameter_mm": 13
-  },
-  {
-    "name": "Forward 7A Hickory, Nylon",
-    "part_number": "TX7AN",
-    "maker": "ProMark",
-    "tip_shape": "Oval",
-    "tip_material": "Nylon",
-    "material": "Hickory",
-    "taper": "Short",
-    "length_mm": 390.5,
-    "diameter_mm": 13
-  },
-  {
-    "name": "Forward 7A Raw Hickory",
-    "part_number": "TXR7AW",
-    "maker": "ProMark",
-    "tip_shape": "Oval",
-    "tip_material": "Wood",
-    "material": "Hickory",
-    "taper": "Short",
-    "length_mm": 390.5,
-    "diameter_mm": 13
-  },
-  {
-    "name": "Forward 7A Raw Hickory, Nylon",
-    "part_number": "TXR7AN",
-    "maker": "ProMark",
-    "tip_shape": "Oval",
-    "tip_material": "Nylon",
-    "material": "Hickory",
-    "taper": "Short",
-    "length_mm": 390.5,
-    "diameter_mm": 13
-  },
-  {
-    "name": "Forward 7A FireGrain Hickory",
-    "part_number": "TX7AW-FG",
-    "maker": "ProMark",
-    "tip_shape": "Oval",
-    "tip_material": "Wood",
-    "material": "Hickory",
-    "taper": "Short",
-    "length_mm": 390.5,
-    "diameter_mm": 13
-  },
-  {
     "name": "Forward 5A Hickory",
     "part_number": "TX5AW",
     "maker": "ProMark",
@@ -779,6 +724,28 @@
     "taper": "Short",
     "length_mm": 419.1,
     "diameter_mm": 14
+  },
+  {
+    "name": "Forward 7A Hickory",
+    "part_number": "TX7AW",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 390.5,
+    "diameter_mm": 13
+  },
+  {
+    "name": "Forward 7A Hickory Nylon",
+    "part_number": "TX7AN",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 390.5,
+    "diameter_mm": 13
   },
   {
     "name": "Forward 5B Hickory",
@@ -803,6 +770,182 @@
     "diameter_mm": 16.1
   },
   {
+    "name": "Forward 2B Hickory Nylon",
+    "part_number": "TX2BN",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 406.4,
+    "diameter_mm": 16.1
+  },
+  {
+    "name": "Forward 747 Hickory",
+    "part_number": "TX747W",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 412.8,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Forward 747 Hickory Nylon",
+    "part_number": "TX747N",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 412.8,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Forward 747B Hickory",
+    "part_number": "TX747BW",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 425.5,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Forward 747B Hickory Nylon",
+    "part_number": "TX747BN",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 425.5,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Rebound 5A Hickory",
+    "part_number": "RBH565AW",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Rebound 5A Hickory Nylon",
+    "part_number": "RBH565N",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Rebound 5A Long Hickory",
+    "part_number": "RBH565LAW",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 419.1,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Rebound ７A Hickory",
+    "part_number": "",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 13.6
+  },
+  {
+    "name": "Rebound ７A Hickory Nylon",
+    "part_number": "RBH535N",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 13.6
+  },
+  {
+    "name": "Rebound ７A Long Hickory",
+    "part_number": "RBH535LAW",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 419.1,
+    "diameter_mm": 13.6
+  },
+  {
+    "name": "Rebound 2B Hickory",
+    "part_number": "RBH625AW",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 15.9
+  },
+  {
+    "name": "Rebound 2B Long Hickory",
+    "part_number": "RBH625LAW",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 419.1,
+    "diameter_mm": 15.9
+  },
+  {
+    "name": "Rebound 5B Hickory",
+    "part_number": "",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "Rebound 5B Hickory Nylon",
+    "part_number": "RBH595N",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "FINESSE 718 Hickory",
+    "part_number": "TX718W",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 412.8,
+    "diameter_mm": 14
+  },
+  {
     "name": "Finesse 7A Maple",
     "part_number": "RBM565RW",
     "maker": "ProMark",
@@ -822,6 +965,17 @@
     "material": "Maple",
     "taper": "Long",
     "length_mm": 406.4,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Finesse 5A Long Maple",
+    "part_number": "RBM565LRW",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 419.1,
     "diameter_mm": 14.4
   },
   {
@@ -845,6 +999,39 @@
     "taper": "Long",
     "length_mm": 419.1,
     "diameter_mm": 15.9
+  },
+  {
+    "name": "Finesse 5B Maple",
+    "part_number": "RBM595RW",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "Finesse 5B Long Maple",
+    "part_number": "RBM595LRW",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 419.1,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "ATTACK 747B Shira Kashi Oak",
+    "part_number": "PW747BW",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Oak",
+    "taper": "Short",
+    "length_mm": 425.5,
+    "diameter_mm": 15
   },
   {
     "name": "SD1W",
@@ -891,7 +1078,7 @@
     "diameter_mm": 13.5
   },
   {
-    "name": "TODD SUCHERMAN Maple",
+    "name": "Todd Sucherman Maple",
     "part_number": "SD330W",
     "maker": "ProMark",
     "tip_shape": "Acorn",
@@ -924,6 +1111,138 @@
     "diameter_mm": 17.4
   },
   {
+    "name": "Anika Nilles Hickory",
+    "part_number": "RBANW",
+    "maker": "ProMark",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 13.8
+  },
+  {
+    "name": "Miguel Lamas Hickory",
+    "part_number": "TXMLW",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 404.5,
+    "diameter_mm": 14.6
+  },
+  {
+    "name": "Dave Lombardo Hickory",
+    "part_number": "TX2BXN",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Nylon",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 409.6,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Marco Minnemann Hickory",
+    "part_number": "TX721W",
+    "maker": "ProMark",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "Carter Mclean Hickory",
+    "part_number": "RBCMW",
+    "maker": "ProMark",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 409.6,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "Simon Phillips Hickory",
+    "part_number": "TX707W",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 412.8,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Rick Latham Hickory",
+    "part_number": "TX717W",
+    "maker": "ProMark",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406.4,
+    "diameter_mm": 14
+  },
+  {
+    "name": "Ian Paice Hickory",
+    "part_number": "TX808LW",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 409.6,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "Elvin Jones Hickory",
+    "part_number": "TXJZW",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 406.4,
+    "diameter_mm": 13
+  },
+  {
+    "name": "Phil Collins Hickory",
+    "part_number": "TXPCW",
+    "maker": "ProMark",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 374.7,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "Steve Ferrone Hickory",
+    "part_number": "TX735W",
+    "maker": "ProMark",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Medium",
+    "length_mm": 427,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "Neil Peart Shira Kashi Oak",
+    "part_number": "TX735W",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Oak",
+    "taper": "Short",
+    "length_mm": 412.8,
+    "diameter_mm": 14
+  },
+  {
     "name": "Concert One Orchestra",
     "part_number": "TXC1W",
     "maker": "ProMark",
@@ -933,6 +1252,17 @@
     "taper": "Long",
     "length_mm": 428.6,
     "diameter_mm": 16.4
+  },
+  {
+    "name": "JUNIOR Hickory",
+    "part_number": "TXJRW",
+    "maker": "ProMark",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 330.2,
+    "diameter_mm": 13.5
   },
   {
     "name": "Concert SD1",
@@ -1628,7 +1958,7 @@
     "diameter_mm": 14.7
   },
   {
-    "name": "SugarMaple SD1 Concert General",
+    "name": "Sugar Maple SD1 Concert General",
     "part_number": "VSMCW",
     "maker": "Vater",
     "tip_shape": "Barrel",
@@ -1650,7 +1980,7 @@
     "diameter_mm": 15.5
   },
   {
-    "name": "SugarMaple SD9",
+    "name": "Sugar Maple SD9",
     "part_number": "VSMSD9W",
     "maker": "Vater",
     "tip_shape": "Barrel",
@@ -1694,7 +2024,7 @@
     "diameter_mm": 16
   },
   {
-    "name": "SugarMaple Piccolo",
+    "name": "Sugar Maple Piccolo",
     "part_number": "VSMPW",
     "maker": "Vater",
     "tip_shape": "Round",
@@ -1705,7 +2035,7 @@
     "diameter_mm": 16
   },
   {
-    "name": "SugarMaple Pianissimo",
+    "name": "Sugar Maple Pianissimo",
     "part_number": "VSMPIANW",
     "maker": "Vater",
     "tip_shape": "Round",
@@ -1716,7 +2046,7 @@
     "diameter_mm": 16.1
   },
   {
-    "name": "SugarMaple 7A",
+    "name": "Sugar Maple 7A",
     "part_number": "SM-7A",
     "maker": "Vater",
     "tip_shape": "Round",
@@ -1738,7 +2068,7 @@
     "diameter_mm": 14.1
   },
   {
-    "name": "SugarMaple Super Jazz",
+    "name": "Sugar Maple Super Jazz",
     "part_number": "VSMSJW",
     "maker": "Vater",
     "tip_shape": "Oval",
