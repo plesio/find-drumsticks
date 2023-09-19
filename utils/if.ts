@@ -107,6 +107,7 @@ export const MaterialType = {
   Maple: 'Maple',
   Hickory: 'Hickory',
   Oak: 'Oak',
+  Birch: 'Birch',
   GoldenCitrine: 'GoldenCitrine',
   Metal: 'Metal',
 };

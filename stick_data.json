@@ -517,6 +517,61 @@
     "diameter_mm": 13.7
   },
   {
+    "name": "SYMPHONIC COLLECTION GREG ZUBER EXCALIBUR",
+    "part_number": "VIC-SGZE",
+    "maker": "VicFirth",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Birch",
+    "taper": "Long",
+    "length_mm": 431.8,
+    "diameter_mm": 17.1
+  },
+  {
+    "name": "SYMPHONIC COLLECTION GREG ZUBER NOTHUNG",
+    "part_number": "VIC-SGZN",
+    "maker": "VicFirth",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Birch",
+    "taper": "Long",
+    "length_mm": 431.8,
+    "diameter_mm": 17.1
+  },
+  {
+    "name": "SYMPHONIC COLLECTION NEY ROSAURO",
+    "part_number": "VIC-SNR",
+    "maker": "VicFirth",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 419.1,
+    "diameter_mm": 15.2
+  },
+  {
+    "name": "SYMPHONIC COLLECTION TOM GAUGER",
+    "part_number": "VIC-TG15",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Medium",
+    "length_mm": 420.7,
+    "diameter_mm": 15.9
+  },
+  {
+    "name": "SYMPHONIC COLLECTION TED ATKATZ II",
+    "part_number": "VIC-SATK2",
+    "maker": "VicFirth",
+    "tip_shape": "Round",
+    "tip_material": "Nylon",
+    "material": "Birch",
+    "taper": "Short",
+    "length_mm": 403.2,
+    "diameter_mm": 15.4
+  },
+  {
     "name": "Jojo Mayer Signature",
     "part_number": "VIC-SJM",
     "maker": "VicFirth",
@@ -1265,6 +1320,149 @@
     "diameter_mm": 13.5
   },
   {
+    "name": "Standard 7A",
+    "part_number": "SB100",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13.6
+  },
+  {
+    "name": "Standard 5A",
+    "part_number": "SB101",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Standard 5B",
+    "part_number": "SB102",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "Standard Long 5A",
+    "part_number": "SB103",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Standard Long 5B",
+    "part_number": "SB104",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "Hybrid 7A",
+    "part_number": "SB105",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 13.6
+  },
+  {
+    "name": "Hybrid 5A",
+    "part_number": "SB106",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 413,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Hybrid 5B",
+    "part_number": "SB107",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 413,
+    "diameter_mm": 15.1
+  },
+  {
+    "name": "Heavy 5A",
+    "part_number": "SB108",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 14.6
+  },
+  {
+    "name": "Heavy 5B",
+    "part_number": "SB109",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 15.4
+  },
+  {
+    "name": "Heavy 2B",
+    "part_number": "SB110",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 15.9
+  },
+  {
+    "name": "Big Apple Bop 7A",
+    "part_number": "SB111",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "Big Apple Swing 5B",
+    "part_number": "SB112",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15.2
+  },
+  {
     "name": "Concert SD1",
     "part_number": "SB113",
     "maker": "Meinl",
@@ -1298,6 +1496,50 @@
     "diameter_mm": 13.8
   },
   {
+    "name": "Timbales Sticks 5/16",
+    "part_number": "SB117",
+    "maker": "Meinl",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 405,
+    "diameter_mm": 8
+  },
+  {
+    "name": "Timbales Sticks 3/8",
+    "part_number": "SB118",
+    "maker": "Meinl",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 405,
+    "diameter_mm": 10
+  },
+  {
+    "name": "Timbales Sticks 1/2",
+    "part_number": "SB119",
+    "maker": "Meinl",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 405,
+    "diameter_mm": 12.5
+  },
+  {
+    "name": "Standard Long 7A",
+    "part_number": "SB121",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 419,
+    "diameter_mm": 13.6
+  },
+  {
     "name": "Concert HD1",
     "part_number": "SB129",
     "maker": "Meinl",
@@ -1329,6 +1571,28 @@
     "taper": "Medium",
     "length_mm": 403,
     "diameter_mm": 13.8
+  },
+  {
+    "name": "SB600-LUKE HOLLAND",
+    "part_number": "SB600",
+    "maker": "Meinl",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Short",
+    "length_mm": 411,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "SB601-CALVIN RODGERS",
+    "part_number": "SB601",
+    "maker": "Meinl",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 419,
+    "diameter_mm": 14.2
   },
   {
     "name": "CP-AI AHITO INAZAWA MODEL",
