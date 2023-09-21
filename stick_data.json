@@ -1540,6 +1540,72 @@
     "diameter_mm": 13.6
   },
   {
+    "name": "Big Apple Swing 7A",
+    "part_number": "SB122",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 406,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "Big Apple Bop 7A",
+    "part_number": "SB123",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 406,
+    "diameter_mm": 13.7
+  },
+  {
+    "name": "Big Apple Swing 5B",
+    "part_number": "SB124",
+    "maker": "Meinl",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 406,
+    "diameter_mm": 15.2
+  },
+  {
+    "name": "Timbales Sticks 1/2 Long",
+    "part_number": "SB126",
+    "maker": "Meinl",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 419,
+    "diameter_mm": 12.5
+  },
+  {
+    "name": "Timbales Sticks 7/16",
+    "part_number": "SB127",
+    "maker": "Meinl",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 405,
+    "diameter_mm": 11.1
+  },
+  {
+    "name": "Timbales Sticks 7/16 Long",
+    "part_number": "SB128",
+    "maker": "Meinl",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 419,
+    "diameter_mm": 11.1
+  },
+  {
     "name": "Concert HD1",
     "part_number": "SB129",
     "maker": "Meinl",
@@ -1571,6 +1637,83 @@
     "taper": "Medium",
     "length_mm": 403,
     "diameter_mm": 13.8
+  },
+  {
+    "name": "Hybrid 8A",
+    "part_number": "SB132",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Hybrid 9A",
+    "part_number": "SB133",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "Hybrid 7A Hard Maple",
+    "part_number": "SB134",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 13.6
+  },
+  {
+    "name": "Hybrid 8A Hard Maple",
+    "part_number": "SB135",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 14.1
+  },
+  {
+    "name": "Hybrid 5A Hard Maple",
+    "part_number": "SB136",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 14.4
+  },
+  {
+    "name": "Hybrid 9A Hard Maple",
+    "part_number": "SB137",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "Hybrid 5B Hard Maple",
+    "part_number": "SB138",
+    "maker": "Meinl",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Maple",
+    "taper": "Long",
+    "length_mm": 413,
+    "diameter_mm": 15.1
   },
   {
     "name": "SB600-LUKE HOLLAND",
@@ -3003,6 +3146,17 @@
     "diameter_mm": 16
   },
   {
+    "name": "HICKORY STANDARD H-135KW",
+    "part_number": "H-135KW",
+    "maker": "Lerni",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 13.5
+  },
+  {
     "name": "HICKORY STANDARD H-140AW",
     "part_number": "H-140AW",
     "maker": "Lerni",
@@ -3047,6 +3201,28 @@
     "diameter_mm": 14
   },
   {
+    "name": "HICKORY STANDARD H-140SW",
+    "part_number": "H-140SW",
+    "maker": "Lerni",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14
+  },
+  {
+    "name": "HICKORY STANDARD H-140KW",
+    "part_number": "H-140KW",
+    "maker": "Lerni",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 404,
+    "diameter_mm": 14
+  },
+  {
     "name": "HICKORY STANDARD H-145AW",
     "part_number": "H-145AW",
     "maker": "Lerni",
@@ -3056,6 +3232,105 @@
     "taper": "Unknown",
     "length_mm": 406,
     "diameter_mm": 14.5
+  },
+  {
+    "name": "HICKORY STANDARD H-145RW",
+    "part_number": "H-145RW",
+    "maker": "Lerni",
+    "tip_shape": "Round",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "HICKORY STANDARD H-145KW",
+    "part_number": "H-145KW",
+    "maker": "Lerni",
+    "tip_shape": "Barrel",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "HICKORY STANDARD H-145MW",
+    "part_number": "H-145MW",
+    "maker": "Lerni",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14.5
+  },
+  {
+    "name": "HICKORY STANDARD H-147MW",
+    "part_number": "H-147MW",
+    "maker": "Lerni",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 415,
+    "diameter_mm": 14.7
+  },
+  {
+    "name": "HICKORY STANDARD H-150AW",
+    "part_number": "H-150AW",
+    "maker": "Lerni",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15
+  },
+  {
+    "name": "HICKORY STANDARD H-150BW",
+    "part_number": "H-150BW",
+    "maker": "Lerni",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 15
+  },
+  {
+    "name": "HICKORY TEXTURE S-140AW",
+    "part_number": "S-140AW",
+    "maker": "Lerni",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 406,
+    "diameter_mm": 14
+  },
+  {
+    "name": "HICKORY TEXTURE S-140BW",
+    "part_number": "S-140BW",
+    "maker": "Lerni",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 412,
+    "diameter_mm": 14
+  },
+  {
+    "name": "HICKORY TEXTURE S-140LW TIPLESS",
+    "part_number": "S-140LW TIPLESS",
+    "maker": "Lerni",
+    "tip_shape": "None",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "None",
+    "length_mm": 406,
+    "diameter_mm": 14
   },
   {
     "name": "HICKORY TEXTURE S-145AW",
@@ -3850,6 +4125,17 @@
     "diameter_mm": 16
   },
   {
+    "name": "Classic Series NO.1",
+    "part_number": "Classic Series NO.1",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Long",
+    "length_mm": 417,
+    "diameter_mm": 17
+  },
+  {
     "name": "Classic Series NO.2",
     "part_number": "Classic Series NO.2",
     "maker": "PLAYWOOD",
@@ -3859,6 +4145,28 @@
     "taper": "Long",
     "length_mm": 390,
     "diameter_mm": 17
+  },
+  {
+    "name": "Classic Series NO.3",
+    "part_number": "Classic Series NO.3",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "GoldenCitrine",
+    "taper": "Long",
+    "length_mm": 380,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Classic Series NO.4",
+    "part_number": "Classic Series NO.4",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Teardrop",
+    "tip_material": "Wood",
+    "material": "GoldenCitrine",
+    "taper": "Medium",
+    "length_mm": 380,
+    "diameter_mm": 15.5
   },
   {
     "name": "Classic Series NO.5",
@@ -3892,6 +4200,61 @@
     "taper": "Unknown",
     "length_mm": 370,
     "diameter_mm": 16
+  },
+  {
+    "name": "Concert Series NO.2",
+    "part_number": "Concert Series NO.2",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Acorn",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 370,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Concert Series NO.3",
+    "part_number": "Concert Series NO.3",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Unknown",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 370,
+    "diameter_mm": 16
+  },
+  {
+    "name": "Makoto Aruga Model",
+    "part_number": "H-155AM",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Hickory",
+    "taper": "Unknown",
+    "length_mm": 405,
+    "diameter_mm": 15.5
+  },
+  {
+    "name": "Toshiaki Ishiuchi Model",
+    "part_number": "O-15TI",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "Oak",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 15
+  },
+  {
+    "name": "Toshiaki Ishiuchi Model",
+    "part_number": "GS-15TI",
+    "maker": "PLAYWOOD",
+    "tip_shape": "Oval",
+    "tip_material": "Wood",
+    "material": "GoldenCitrine",
+    "taper": "Unknown",
+    "length_mm": 400,
+    "diameter_mm": 15
   },
   {
     "name": "Tatsuya Ishikawa Model",
