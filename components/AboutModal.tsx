@@ -22,7 +22,7 @@ export default function AboutModal() {
               <div class='p-4'>
                 <p class='text-2xl font-bold'>About</p>
                 <p class='text-sm pl-6'>
-                  This is a drum stick finder. You can find your favorite drum sticks by maker, tip shape, and so on.
+                  This is a drum stick finder. You can find your favorite drum sticks by maker, tip shape, and so on (Japan Only).
                 </p>
                 <p class='text-sm mt-4 pl-6'>
                   これはメーカーや先端の形状などから、お気に入りのドラムスティックを見つけることを目的としたツールです。
@@ -54,21 +54,17 @@ export default function AboutModal() {
                     Issueに正確な内容とそのソースを貼ってくれると助かる。 PRでもいいよ。<br></br>
                   </span>
                   <span class='ml-5'>
-                    あと、Tip Shape は、メーカー毎に呼称の基準が違うため、なるべくVicFirth 基準になるようにしている。<br></br>
-                  </span>
-                  <span class='ml-5'>
-                    （例えば、「Ball ⇒ Round or Barrel」「Teardrop ⇒ Oval」。）
+                    あと、Tip Shape は、メーカー毎に呼称の基準が違ったり微妙な形もあるので、一部独自の解釈が含まれてます。<br></br>
                   </span>
                 </p>
-                <p class='text-sm mt-4 pl-6'>Q. 何もしてないのに壊れた</p>
+                <p class='text-sm mt-4 pl-6'>Q. ●●ってメーカーも入れてほしい</p>
                 <p class='text-sm pl-6'>
                   <span>
-                    A. ブラウザにキャッシュを置く作りになってて、こちらで機能やデータ構造を改修したりするとバグるかも。<br></br>
+                    A. ソースをIssueに提示するか、リスト作ってPRしてください。<br></br>
                   </span>
                   <span class='ml-5'>
-                    画面内のリフレッシュボタンでキャッシュを消す処理が走る（はず）。<br></br>
+                    ただ、国内流通のないメーカーのはあまり積極的にやってもなぁと思ってます。<br></br>
                   </span>
-                  <span class='ml-5'>それでも駄目だとブラウザの履歴・キャッシュ削除とかで消してみてほしい。</span>
                 </p>
                 <p class='text-sm mt-4 pl-6'>Q. この機能が壊れてる</p>
                 <p class='text-sm pl-6'>
