@@ -24,11 +24,16 @@ export interface Props {
 // フィルターの仕様に変更を入れるたびに数字を変えること.
 const CURRENT_FILTER_PARAM_VERSION = 1;
 
+const LENGTH_MAX = 435.0;
+const LENGTH_MIN = 370.0;
+const DIAMETER_MAX = 20.0;
+const DIAMETER_MIN = 10.0;
+
 export default function StickFilter(props: Props) {
-  const lengthMax = useSignal(props.filterParam.value.length_mm_max ?? 430.0);
-  const lengthMin = useSignal(props.filterParam.value.length_mm_min ?? 370.0);
-  const diameterMax = useSignal(props.filterParam.value.diameter_mm_max ?? 17.0);
-  const diameterMin = useSignal(props.filterParam.value.diameter_mm_min ?? 10.0);
+  const lengthMax = useSignal(props.filterParam.value.length_mm_max ?? LENGTH_MAX);
+  const lengthMin = useSignal(props.filterParam.value.length_mm_min ?? LENGTH_MIN);
+  const diameterMax = useSignal(props.filterParam.value.diameter_mm_max ?? DIAMETER_MAX);
+  const diameterMin = useSignal(props.filterParam.value.diameter_mm_min ?? DIAMETER_MIN);
   //
   const toastMessage = useSignal('');
   const isToastVisible = useSignal(false);
@@ -44,10 +49,10 @@ export default function StickFilter(props: Props) {
   const handleChangeParam = (isForce = false) => {
     if (isForce === false) return;
     // 各 value と select の値を強制的に更新する（ロードセーブ用
-    lengthMax.value = props.filterParam.value.length_mm_max ?? 430.0;
-    lengthMin.value = props.filterParam.value.length_mm_min ?? 370.0;
-    diameterMax.value = props.filterParam.value.diameter_mm_max ?? 17.0;
-    diameterMin.value = props.filterParam.value.diameter_mm_min ?? 10.0;
+    lengthMax.value = props.filterParam.value.length_mm_max ?? LENGTH_MAX;
+    lengthMin.value = props.filterParam.value.length_mm_min ?? LENGTH_MIN;
+    diameterMax.value = props.filterParam.value.diameter_mm_max ?? DIAMETER_MAX;
+    diameterMin.value = props.filterParam.value.diameter_mm_min ?? DIAMETER_MIN;
     // --
     const tip_shape_select = document.getElementById('stick_tip_shape');
     if (tip_shape_select && tip_shape_select instanceof HTMLSelectElement) {
@@ -96,13 +101,13 @@ export default function StickFilter(props: Props) {
 
   const handleInputLengthMin = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const length_mm_min = Number(target.value) ?? 360;
+    const length_mm_min = Number(target.value) ?? LENGTH_MIN;
     lengthMin.value = length_mm_min;
   }, []);
 
   const handleChangeLengthMin = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const length_mm_min = Number(target.value) ?? 360;
+    const length_mm_min = Number(target.value) ?? LENGTH_MIN;
     lengthMin.value = length_mm_min;
     props.filterParam.value = { ...props.filterParam.value, length_mm_min };
     //console.log(props.filterParam.value);
@@ -113,13 +118,13 @@ export default function StickFilter(props: Props) {
 
   const handleInputLengthMax = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const length_mm_max = Number(target.value) ?? 450;
+    const length_mm_max = Number(target.value) ?? LENGTH_MAX;
     lengthMax.value = length_mm_max;
   }, []);
 
   const handleChangeLengthMax = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const length_mm_max = Number(target.value) ?? 450;
+    const length_mm_max = Number(target.value) ?? LENGTH_MAX;
     lengthMax.value = length_mm_max;
     props.filterParam.value = { ...props.filterParam.value, length_mm_max };
     //console.log(props.filterParam.value);
@@ -130,13 +135,13 @@ export default function StickFilter(props: Props) {
 
   const handleInputdiameterMin = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const diameter_mm_min = Number(target.value) ?? 10;
+    const diameter_mm_min = Number(target.value) ?? DIAMETER_MIN;
     diameterMin.value = diameter_mm_min;
   }, []);
 
   const handleChangediameterMin = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const diameter_mm_min = Number(target.value) ?? 10;
+    const diameter_mm_min = Number(target.value) ?? DIAMETER_MIN;
     diameterMin.value = diameter_mm_min;
     props.filterParam.value = { ...props.filterParam.value, diameter_mm_min };
     //console.log(props.filterParam.value);
@@ -147,13 +152,13 @@ export default function StickFilter(props: Props) {
 
   const handleInputdiameterMax = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const diameter_mm_max = Number(target.value) ?? 17;
+    const diameter_mm_max = Number(target.value) ?? DIAMETER_MAX;
     diameterMax.value = diameter_mm_max;
   }, []);
 
   const handleChangediameterMax = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
-    const diameter_mm_max = Number(target.value) ?? 17;
+    const diameter_mm_max = Number(target.value) ?? DIAMETER_MAX;
     diameterMax.value = diameter_mm_max;
     props.filterParam.value = { ...props.filterParam.value, diameter_mm_max };
     //console.log(props.filterParam.value);
@@ -268,7 +273,7 @@ export default function StickFilter(props: Props) {
                 </label>
 
                 <span class='align-center'>
-                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={lengthMin.value} min='360.0' max='440.0' step='0.1' onChange={handleChangeLengthMin} />
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={lengthMin.value} min={LENGTH_MIN} max={LENGTH_MAX} step='0.1' onChange={handleChangeLengthMin} />
                   <span class='mx-2'></span>
                   <input
                     id='stick_length_min_range'
@@ -276,8 +281,8 @@ export default function StickFilter(props: Props) {
                     type='range'
                     class='transparent h-[8px] w-3/6 cursor-pointer
   appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
-                    min='370.0'
-                    max='430.0'
+                    min={LENGTH_MIN}
+                    max={LENGTH_MAX}
                     step='0.5'
                     onChange={handleChangeLengthMin}
                     onInput={handleInputLengthMin}
@@ -294,7 +299,7 @@ export default function StickFilter(props: Props) {
                 </label>
 
                 <span class='align-center'>
-                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={lengthMax.value} min='360.0' max='440.0' step='0.1' onChange={handleChangeLengthMax} />
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={lengthMax.value} min={LENGTH_MIN} max={LENGTH_MAX} step='0.5' onChange={handleChangeLengthMax} />
                   <span class='mx-2'></span>
                   <input
                     id='stick_length_max_range'
@@ -302,8 +307,8 @@ export default function StickFilter(props: Props) {
                     type='range'
                     class='transparent h-[8px] w-3/6 cursor-pointer
   appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
-                    min='370.0'
-                    max='430.0'
+                    min={LENGTH_MIN}
+                    max={LENGTH_MAX}
                     step='0.5'
                     onChange={handleChangeLengthMax}
                     onInput={handleInputLengthMax}
@@ -320,7 +325,7 @@ export default function StickFilter(props: Props) {
                 </label>
 
                 <span class='align-center'>
-                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMin.value} min='10.0' max='17.0' step='0.1' onChange={handleChangediameterMin} />
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMin.value} min={DIAMETER_MIN} max={DIAMETER_MAX} step='0.1' onChange={handleChangediameterMin} />
                   <span class='mx-2'></span>
                   <input
                     id='stick_diameter_min_range'
@@ -328,8 +333,8 @@ export default function StickFilter(props: Props) {
                     type='range'
                     class='transparent h-[8px] w-3/6 cursor-pointer
   appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
-                    min='10.0'
-                    max='17.0'
+                    min={DIAMETER_MIN}
+                    max={DIAMETER_MAX}
                     step='0.1'
                     onChange={handleChangediameterMin}
                     onInput={handleInputdiameterMin}
@@ -346,16 +351,15 @@ export default function StickFilter(props: Props) {
                 </label>
 
                 <span class='align-center'>
-                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMax.value} min='10.0' max='17.0' step='0.1' onChange={handleChangediameterMax} />
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMax.value} min={DIAMETER_MIN} max={DIAMETER_MAX} step='0.1' onChange={handleChangediameterMax} />
                   <span class='mx-2'></span>
                   <input
                     id='stick_diameter_max_range'
                     value={diameterMax.value}
                     type='range'
-                    class='transparent h-[8px] w-3/6 cursor-pointer
-  appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
-                    min='10.0'
-                    max='17.0'
+                    class='transparent h-[8px] w-3/6 cursor-pointer appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600'
+                    min={DIAMETER_MIN}
+                    max={DIAMETER_MAX}
                     step='0.1'
                     onChange={handleChangediameterMax}
                     onInput={handleInputdiameterMax}
