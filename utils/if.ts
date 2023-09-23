@@ -1,6 +1,7 @@
 import { sticksAhead } from './stickdata/ahead.ts';
 import { sticksCanopus } from './stickdata/canopus.ts';
 import { sticksGretsch } from './stickdata/gretsch.ts';
+import { sticksInnovativePercussion } from './stickdata/innovativepercussion.ts';
 import { sticksLerni } from './stickdata/lerni.ts';
 import { sticksLosCabos } from './stickdata/loscabos.ts';
 import { sticksLP } from './stickdata/lp.ts';
@@ -36,6 +37,7 @@ export const AllSticks = [
   ...sticksGretsch,
   ...sticksPlaywood,
   ...sticksPromuco,
+  ...sticksInnovativePercussion,
   ...sticksAhead,
   ...sticksLP,
 ] as const;
@@ -73,6 +75,7 @@ export const Makers = {
   GRETSCH: 'GRETSCH',
   Promuco: 'Promuco',
   LP: 'LP',
+  InnovativePercussion: 'InnovativePercussion',
 } as const;
 
 export type Makers = typeof Makers[keyof typeof Makers];

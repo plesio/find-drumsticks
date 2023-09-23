@@ -3,13 +3,13 @@
  * @author Plesiosaurus
  */
 
-import { AllSticks, DrumStick } from "./if.ts";
+import { AllSticks, DrumStick } from './if.ts';
 
 const convert = () => {
-    console.log('convertStickData2Json')
-    const stickList: ReadonlyArray<DrumStick> = [...AllSticks];
-    const json = JSON.stringify(stickList, null, 2);
-    Deno.writeFileSync('./stick_data.json', new TextEncoder().encode(json));
-}
+  console.log('convertStickData2Json');
+  const stickList: ReadonlyArray<DrumStick> = [...AllSticks];
+  const json = JSON.stringify(stickList, null, 0);
+  Deno.writeFileSync('./stick_data.json', new TextEncoder().encode(json));
+};
 
 convert();
