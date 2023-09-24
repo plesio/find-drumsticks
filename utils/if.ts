@@ -79,6 +79,7 @@ export const Makers = {
 } as const;
 
 export type Makers = typeof Makers[keyof typeof Makers];
+export const MakersArray = Object.values(Makers);
 
 export const TipShapes = {
   Round: 'Round',

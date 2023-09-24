@@ -29,12 +29,12 @@ export function inchesToMillimeters(inches: number): number {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-export function filterByMakers(stickList: DrumStick[], makers: string[] = []): DrumStick[] {
-  if (!makers || makers?.length === 0) {
+export function filterByExcludeMakers(stickList: DrumStick[], excludeMakers: string[] = []): DrumStick[] {
+  if (!excludeMakers || excludeMakers?.length === 0) {
     return stickList;
   } else {
-    const set = new Set(makers);
-    return stickList.filter((stick) => set.has(stick.maker));
+    const set = new Set(excludeMakers);
+    return stickList.filter((stick) => !set.has(stick.maker));
   }
 }
 

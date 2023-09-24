@@ -1,15 +1,16 @@
 import type { Signal } from '@preact/signals';
-import { signal, useSignal } from '@preact/signals';
+import { useSignal } from '@preact/signals';
 import { IS_BROWSER } from '$fresh/runtime.ts';
 import { Makers, MaterialTypeArray, TipShapes, TipShapesArray } from '../utils/if.ts';
-import { useCallback, useEffect } from 'preact/hooks';
+import { useCallback } from 'preact/hooks';
 import { CloseIcon } from '../components/svg/CloseIcon.tsx';
 import { Toast } from '../components/Toast.tsx';
+import ExcludeMakersFilter from './ExcludeMakersFilter.tsx';
 
 export interface StickFilterParams {
   name?: string;
   material?: string;
-  maker: Makers[];
+  exclude_makers: Makers[];
   tips: TipShapes[];
   diameter_mm_min?: number;
   diameter_mm_max?: number;
@@ -34,6 +35,7 @@ export default function StickFilter(props: Props) {
   const lengthMin = useSignal(props.filterParam.value.length_mm_min ?? LENGTH_MIN);
   const diameterMax = useSignal(props.filterParam.value.diameter_mm_max ?? DIAMETER_MAX);
   const diameterMin = useSignal(props.filterParam.value.diameter_mm_min ?? DIAMETER_MIN);
+  const excludeMakers = useSignal(props.filterParam.value.exclude_makers ?? []);
   //
   const toastMessage = useSignal('');
   const isToastVisible = useSignal(false);
@@ -53,6 +55,7 @@ export default function StickFilter(props: Props) {
     lengthMin.value = props.filterParam.value.length_mm_min ?? LENGTH_MIN;
     diameterMax.value = props.filterParam.value.diameter_mm_max ?? DIAMETER_MAX;
     diameterMin.value = props.filterParam.value.diameter_mm_min ?? DIAMETER_MIN;
+    excludeMakers.value = props.filterParam.value.exclude_makers ?? [];
     // --
     const tip_shape_select = document.getElementById('stick_tip_shape');
     if (tip_shape_select && tip_shape_select instanceof HTMLSelectElement) {
@@ -133,13 +136,13 @@ export default function StickFilter(props: Props) {
     // 表示を操作する.
   }, []);
 
-  const handleInputdiameterMin = useCallback((e: Event) => {
+  const handleInputDiameterMin = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
     const diameter_mm_min = Number(target.value) ?? DIAMETER_MIN;
     diameterMin.value = diameter_mm_min;
   }, []);
 
-  const handleChangediameterMin = useCallback((e: Event) => {
+  const handleChangeDiameterMin = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
     const diameter_mm_min = Number(target.value) ?? DIAMETER_MIN;
     diameterMin.value = diameter_mm_min;
@@ -150,13 +153,13 @@ export default function StickFilter(props: Props) {
     // 表示を操作する.
   }, []);
 
-  const handleInputdiameterMax = useCallback((e: Event) => {
+  const handleInputDiameterMax = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
     const diameter_mm_max = Number(target.value) ?? DIAMETER_MAX;
     diameterMax.value = diameter_mm_max;
   }, []);
 
-  const handleChangediameterMax = useCallback((e: Event) => {
+  const handleChangeDiameterMax = useCallback((e: Event) => {
     const target = e.target as HTMLInputElement;
     const diameter_mm_max = Number(target.value) ?? DIAMETER_MAX;
     diameterMax.value = diameter_mm_max;
@@ -165,6 +168,21 @@ export default function StickFilter(props: Props) {
     // props が変化したことを通知する
     handleChangeParam();
     // 表示を操作する.
+  }, []);
+
+  const handleChangeExludeMakers = useCallback((exclude_maker: Makers, type: 'ADD' | 'DELETE') => {
+    let exclude_makers = props.filterParam.value.exclude_makers ?? [];
+    if (type === 'ADD') {
+      exclude_makers.push(exclude_maker);
+    } else {
+      exclude_makers = exclude_makers.filter((maker) => maker !== exclude_maker);
+    }
+
+    props.filterParam.value = { ...props.filterParam.value, exclude_makers };
+    //console.log(props.filterParam.value);
+    // props が変化したことを通知する
+    handleChangeParam();
+    // 表示を操作する.`
   }, []);
 
   // --
@@ -325,7 +343,7 @@ export default function StickFilter(props: Props) {
                 </label>
 
                 <span class='align-center'>
-                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMin.value} min={DIAMETER_MIN} max={DIAMETER_MAX} step='0.1' onChange={handleChangediameterMin} />
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMin.value} min={DIAMETER_MIN} max={DIAMETER_MAX} step='0.1' onChange={handleChangeDiameterMin} />
                   <span class='mx-2'></span>
                   <input
                     id='stick_diameter_min_range'
@@ -336,8 +354,8 @@ export default function StickFilter(props: Props) {
                     min={DIAMETER_MIN}
                     max={DIAMETER_MAX}
                     step='0.1'
-                    onChange={handleChangediameterMin}
-                    onInput={handleInputdiameterMin}
+                    onChange={handleChangeDiameterMin}
+                    onInput={handleInputDiameterMin}
                   />
                 </span>
               </div>
@@ -351,7 +369,7 @@ export default function StickFilter(props: Props) {
                 </label>
 
                 <span class='align-center'>
-                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMax.value} min={DIAMETER_MIN} max={DIAMETER_MAX} step='0.1' onChange={handleChangediameterMax} />
+                  <input type='number' class='w-6/2 border border-slate-300 rounded-md' value={diameterMax.value} min={DIAMETER_MIN} max={DIAMETER_MAX} step='0.1' onChange={handleChangeDiameterMax} />
                   <span class='mx-2'></span>
                   <input
                     id='stick_diameter_max_range'
@@ -361,8 +379,8 @@ export default function StickFilter(props: Props) {
                     min={DIAMETER_MIN}
                     max={DIAMETER_MAX}
                     step='0.1'
-                    onChange={handleChangediameterMax}
-                    onInput={handleInputdiameterMax}
+                    onChange={handleChangeDiameterMax}
+                    onInput={handleInputDiameterMax}
                   />
                 </span>
               </div>
@@ -381,6 +399,11 @@ export default function StickFilter(props: Props) {
                   class='w-full border border-slate-300 rounded-md'
                   onChange={handleOnChangeName}
                 />
+              </div>
+
+              {/* Exclude Makers */}
+              <div class='pb-2 px-4'>
+                <ExcludeMakersFilter excludeMakers={excludeMakers.value} handleChangeExludeMakers={handleChangeExludeMakers} />
               </div>
             </div>
           </div>

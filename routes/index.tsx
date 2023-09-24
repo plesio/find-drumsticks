@@ -12,7 +12,7 @@ import LinkGitHubButton from '../components/LinkGitHubButton.tsx';
 
 export default function Home() {
   // コンテンツの入力値を保持する
-  const filterParam = useSignal<StickFilterParams>({ maker: [], tips: [] });
+  const filterParam = useSignal<StickFilterParams>({ exclude_makers: [], tips: [] });
   const stickListRaw = useSignal<DrumStick[]>([]);
 
   useEffect(() => {

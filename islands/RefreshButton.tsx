@@ -14,7 +14,7 @@ interface Props {
 export default function RefreshButton(props: Props) {
   const refresh = useCallback(() => {
     fetchStickList(props.stickListRaw, true);
-    props.filterParam.value = { maker: [], tips: [] };
+    props.filterParam.value = { exclude_makers: [], tips: [] };
     if ('caches' in window) {
       caches.open('drumstick-json').then((cache) => {
         cache.delete('filterParam');
@@ -23,7 +23,7 @@ export default function RefreshButton(props: Props) {
   }, []);
   return (
     <button class='border border-slate-300 rounded-md p-2' onClick={refresh}>
-      <IconRefresh class='w-6 h-6' />
+      <IconRefresh class={`${props.stickListRaw.value.length === 0 ? 'animate-spin text-blue-500' : ''} w-6 h-6`} />
     </button>
   );
 }

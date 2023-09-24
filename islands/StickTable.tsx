@@ -2,7 +2,7 @@ import type { Signal } from '@preact/signals';
 import { AllSticks, DrumStick } from '../utils/if.ts';
 import { StickFilterParams } from './StickFilter.tsx';
 import { useEffect } from 'preact/hooks';
-import { fetchStickList, filterByDiameterMax, filterByDiameterMin, filterByLengthMax, filterByLengthMin, filterByMakers, filterByMaterial, filterByName, filterByTipShape } from '../utils/StickUtils.ts';
+import { fetchStickList, filterByDiameterMax, filterByDiameterMin, filterByExcludeMakers, filterByLengthMax, filterByLengthMin, filterByMaterial, filterByName, filterByTipShape } from '../utils/StickUtils.ts';
 
 interface Props {
   filterParam: Signal<StickFilterParams>;
@@ -83,7 +83,7 @@ export default function StickTable(props: Props) {
 }
 
 function filterTableData(listRaw: DrumStick[], param: StickFilterParams) {
-  let list: DrumStick[] = filterByMakers(listRaw, param.maker);
+  let list: DrumStick[] = filterByExcludeMakers(listRaw, param.exclude_makers);
 
   // -- names
   list = filterByName(list, param.name);
