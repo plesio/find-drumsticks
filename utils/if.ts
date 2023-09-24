@@ -1,7 +1,9 @@
 import { sticksAhead } from './stickdata/ahead.ts';
 import { sticksCanopus } from './stickdata/canopus.ts';
+import { sticksDrumCity } from './stickdata/drumcity.ts';
 import { sticksGretsch } from './stickdata/gretsch.ts';
 import { sticksInnovativePercussion } from './stickdata/innovativepercussion.ts';
+import { sticksJug } from './stickdata/jug.ts';
 import { sticksLerni } from './stickdata/lerni.ts';
 import { sticksLosCabos } from './stickdata/loscabos.ts';
 import { sticksLP } from './stickdata/lp.ts';
@@ -12,6 +14,7 @@ import { sticksPlaywood } from './stickdata/playwood.ts';
 import { sticksProMark } from './stickdata/promark.ts';
 import { sticksPromuco } from './stickdata/promuco.ts';
 import { sticksRegalTip } from './stickdata/regaltip.ts';
+import { sticksRohema } from './stickdata/rohema.ts';
 import { sticksTama } from './stickdata/tama.ts';
 import { sticksVater } from './stickdata/vater.ts';
 import { sticksVirFirth } from './stickdata/vicfirth.ts';
@@ -38,8 +41,11 @@ export const AllSticks = [
   ...sticksPlaywood,
   ...sticksPromuco,
   ...sticksInnovativePercussion,
+  ...sticksRohema,
   ...sticksAhead,
   ...sticksLP,
+  ...sticksDrumCity,
+  ...sticksJug,
 ] as const;
 
 export interface DrumStick {
@@ -76,6 +82,9 @@ export const Makers = {
   Promuco: 'Promuco',
   LP: 'LP',
   InnovativePercussion: 'InnovativePercussion',
+  Rohema: 'Rohema',
+  DrumCity: 'DrumCity',
+  JUG: 'JUG',
 } as const;
 
 export type Makers = typeof Makers[keyof typeof Makers];

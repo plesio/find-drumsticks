@@ -1,0 +1,61 @@
+import { DrumStick } from '../if.ts';
+
+export const sticksRohema: ReadonlyArray<DrumStick> = [
+  // Classic Series
+  {
+    name: '5A Speed Stick',
+    part_number: '618099',
+    maker: 'Rohema',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Unknown',
+    length_mm: 405,
+    diameter_mm: 14.3,
+  },
+  {
+    name: '5A Stick Control',
+    part_number: '618100',
+    maker: 'Rohema',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Unknown',
+    length_mm: 405,
+    diameter_mm: 14.3,
+  },
+  {
+    name: '5A Evolution',
+    part_number: '618087',
+    maker: 'Rohema',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Unknown',
+    length_mm: 405,
+    diameter_mm: 14.3,
+  },
+  {
+    name: 'Classic 7A',
+    part_number: '61325/2',
+    maker: 'Rohema',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Unknown',
+    length_mm: 395,
+    diameter_mm: 13.8,
+  },
+  {
+    name: 'Classic 5AB',
+    part_number: '61326/2',
+    maker: 'Rohema',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Unknown',
+    length_mm: 410,
+    diameter_mm: 14.8,
+  },
+  //
+] as const;

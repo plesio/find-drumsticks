@@ -25,8 +25,8 @@ export interface Props {
 // フィルターの仕様に変更を入れるたびに数字を変えること.
 const CURRENT_FILTER_PARAM_VERSION = 1;
 
-const LENGTH_MAX = 435.0;
-const LENGTH_MIN = 370.0;
+const LENGTH_MAX = 440.0;
+const LENGTH_MIN = 350.0;
 const DIAMETER_MAX = 20.0;
 const DIAMETER_MIN = 10.0;
 
