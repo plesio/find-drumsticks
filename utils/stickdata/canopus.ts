@@ -1,6 +1,28 @@
 import { DrumStick } from '../if.ts';
 
 export const sticksCanopus: ReadonlyArray<DrumStick> = [
+  {
+    name: 'Wing',
+    part_number: 'CP-AH-W',
+    maker: 'Canopus',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hornbeam',
+    taper: 'Unknown',
+    length_mm: 405,
+    diameter_mm: 14,
+  },
+  {
+    name: 'Attack',
+    part_number: 'CP-AH-A',
+    maker: 'Canopus',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hornbeam',
+    taper: 'Unknown',
+    length_mm: 407,
+    diameter_mm: 14.5,
+  },
   // -- Signature --
   {
     name: 'CP-AI AHITO INAZAWA MODEL',
@@ -67,5 +89,16 @@ export const sticksCanopus: ReadonlyArray<DrumStick> = [
     taper: 'Unknown',
     length_mm: 403,
     diameter_mm: 13.0,
+  },
+  {
+    name: 'MST Mel Taylor',
+    part_number: 'MST',
+    maker: 'Canopus',
+    tip_shape: 'Teardrop',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Unknown',
+    length_mm: 406,
+    diameter_mm: 15,
   },
 ] as const;

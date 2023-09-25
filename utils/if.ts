@@ -85,6 +85,7 @@ export const Makers = {
   Rohema: 'Rohema',
   DrumCity: 'DrumCity',
   JUG: 'JUG',
+  //XCEL: 'XCEL', 今国内流通してないっぽい？ https://www.xceldrumsticks.com/product/xcel-speedsticks/
 } as const;
 
 export type Makers = typeof Makers[keyof typeof Makers];
@@ -110,6 +111,7 @@ export const TipMaterials = {
   Wood: 'Wood',
   Nylon: 'Nylon',
   Metal: 'Metal',
+  Other: 'Other',
 } as const;
 
 export type TipMaterials = typeof TipMaterials[keyof typeof TipMaterials];
@@ -131,6 +133,7 @@ export const MaterialType = {
   Oak: 'Oak',
   Birch: 'Birch',
   GoldenCitrine: 'GoldenCitrine',
+  Hornbeam: 'Hornbeam',
   Metal: 'Metal',
 };
 
