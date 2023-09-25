@@ -6,6 +6,7 @@ import { sticksInnovativePercussion } from './stickdata/innovativepercussion.ts'
 import { sticksJug } from './stickdata/jug.ts';
 import { sticksLerni } from './stickdata/lerni.ts';
 import { sticksLosCabos } from './stickdata/loscabos.ts';
+import { sticksLoudin } from './stickdata/Loudin.ts';
 import { sticksLP } from './stickdata/lp.ts';
 import { sticksLudwig } from './stickdata/ludwig.ts';
 import { sticksMeinl } from './stickdata/meinl.ts';
@@ -46,6 +47,7 @@ export const AllSticks = [
   ...sticksLP,
   ...sticksDrumCity,
   ...sticksJug,
+  ...sticksLoudin,
 ] as const;
 
 export interface DrumStick {
@@ -83,9 +85,11 @@ export const Makers = {
   LP: 'LP',
   InnovativePercussion: 'InnovativePercussion',
   Rohema: 'Rohema',
+  KMK: 'KMK',
   DrumCity: 'DrumCity',
   JUG: 'JUG',
   //XCEL: 'XCEL', 今国内流通してないっぽい？ https://www.xceldrumsticks.com/product/xcel-speedsticks/
+  Loudin: 'Loudin', // ハードオフでよくみかけるアレ
 } as const;
 
 export type Makers = typeof Makers[keyof typeof Makers];
