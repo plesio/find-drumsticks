@@ -26,7 +26,7 @@ export interface Props {
 const CURRENT_FILTER_PARAM_VERSION = 1;
 
 const LENGTH_MAX = 440.0;
-const LENGTH_MIN = 350.0;
+const LENGTH_MIN = 300.0;
 const DIAMETER_MAX = 20.0;
 const DIAMETER_MIN = 10.0;
 
