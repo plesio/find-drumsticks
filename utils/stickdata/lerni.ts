@@ -311,4 +311,15 @@ export const sticksLerni: ReadonlyArray<DrumStick> = [
     length_mm: 408,
     diameter_mm: 13.9,
   },
+  {
+    name: 'Yu Seki Model',
+    part_number: 'H-142SY',
+    maker: 'Lerni',
+    tip_shape: 'Acorn',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Unknown',
+    length_mm: 406,
+    diameter_mm: 14.2,
+  },
 ] as const;
