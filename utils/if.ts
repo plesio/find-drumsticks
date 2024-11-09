@@ -102,7 +102,7 @@ export const TipShapes = {
   Oval: 'Oval',
   Teardrop: 'Teardrop',
   //Triangle: 'Triangle',
-  //Reverse_Teardrop: 'Reverse_Teardrop',
+  R_Teardrop: 'R_Teardrop',
   //Reverse_Triangle: 'Reverse_Triangle',
   None: 'None',
   Unknown: 'Unknown',

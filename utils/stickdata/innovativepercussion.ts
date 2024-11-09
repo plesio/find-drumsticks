@@ -1,4 +1,5 @@
 import { DrumStick } from '../if.ts';
+import { inchesToMillimeters } from '../StickUtils.ts';
 
 export const sticksInnovativePercussion: ReadonlyArray<DrumStick> = [
   {
@@ -399,5 +400,28 @@ export const sticksInnovativePercussion: ReadonlyArray<DrumStick> = [
     taper: 'Unknown',
     length_mm: 409,
     diameter_mm: 14.7,
+  },
+  // -- Field
+  {
+    name: 'Field Series FS-1',
+    part_number: 'FS-1',
+    maker: 'InnovativePercussion',
+    tip_shape: 'Oval',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Short',
+    length_mm: inchesToMillimeters(17),
+    diameter_mm: inchesToMillimeters(0.698),
+  },
+  {
+    name: 'Field Series FS-2',
+    part_number: 'FS-2',
+    maker: 'InnovativePercussion',
+    tip_shape: 'R_Teardrop',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Short',
+    length_mm: inchesToMillimeters(17),
+    diameter_mm: inchesToMillimeters(0.698),
   },
 ] as const;

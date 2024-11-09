@@ -322,4 +322,15 @@ export const sticksLerni: ReadonlyArray<DrumStick> = [
     length_mm: 406,
     diameter_mm: 14.2,
   },
+  {
+    name: 'Hideki Aoyama Model',
+    part_number: 'H-152HA',
+    maker: 'Lerni',
+    tip_shape: 'Acorn',
+    tip_material: 'Wood',
+    material: 'Hickory',
+    taper: 'Short',
+    length_mm: 407,
+    diameter_mm: 15.2,
+  },
 ] as const;
