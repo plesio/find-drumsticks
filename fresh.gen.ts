@@ -2,25 +2,28 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from './routes/_app.tsx';
-import * as $1 from './routes/index.tsx';
-import * as $$0 from './islands/ExcludeMakersFilter.tsx';
-import * as $$1 from './islands/RefreshButton.tsx';
-import * as $$2 from './islands/StickFilter.tsx';
-import * as $$3 from './islands/StickTable.tsx';
+import * as $_404 from './routes/_404.tsx';
+import * as $_app from './routes/_app.tsx';
+import * as $index from './routes/index.tsx';
+import * as $ExcludeMakersFilter from './islands/ExcludeMakersFilter.tsx';
+import * as $RefreshButton from './islands/RefreshButton.tsx';
+import * as $StickFilter from './islands/StickFilter.tsx';
+import * as $StickTable from './islands/StickTable.tsx';
+import type { Manifest } from '$fresh/server.ts';
 
 const manifest = {
   routes: {
-    './routes/_app.tsx': $0,
-    './routes/index.tsx': $1,
+    './routes/_404.tsx': $_404,
+    './routes/_app.tsx': $_app,
+    './routes/index.tsx': $index,
   },
   islands: {
-    './islands/ExcludeMakersFilter.tsx': $$0,
-    './islands/RefreshButton.tsx': $$1,
-    './islands/StickFilter.tsx': $$2,
-    './islands/StickTable.tsx': $$3,
+    './islands/ExcludeMakersFilter.tsx': $ExcludeMakersFilter,
+    './islands/RefreshButton.tsx': $RefreshButton,
+    './islands/StickFilter.tsx': $StickFilter,
+    './islands/StickTable.tsx': $StickTable,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;

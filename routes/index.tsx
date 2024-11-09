@@ -12,7 +12,10 @@ import LinkGitHubButton from '../components/LinkGitHubButton.tsx';
 
 export default function Home() {
   // コンテンツの入力値を保持する
-  const filterParam = useSignal<StickFilterParams>({ exclude_makers: [], tips: [] });
+  const filterParam = useSignal<StickFilterParams>({
+    exclude_makers: [],
+    tips: [],
+  });
   const stickListRaw = useSignal<DrumStick[]>([]);
 
   useEffect(() => {
@@ -36,7 +39,7 @@ export default function Home() {
         <p class={'text-2xl font-bold'}>Find Your Favorite Drum Sticks</p>
       </div>
       <div class='p-4 mx-auto max-w-screen-lg'>
-        <div class='flex justify-end'>
+        <div class='mb-1 flex justify-end'>
           <FilterButton />
           <AboutButton />
           <RefreshButton
